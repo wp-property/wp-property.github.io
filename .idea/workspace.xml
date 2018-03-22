@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4812f42b-9efe-4418-b6fe-5c8566ba43d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar.html" afterPath="$PROJECT_DIR$/_includes/sidebar.html" />
     </list>
     <ignored path="wp-property.github.io.iws" />
@@ -324,12 +322,12 @@
       <workItem from="1521549475857" duration="5009000" />
       <workItem from="1521559893674" duration="7232000" />
       <workItem from="1521708812363" duration="2583000" />
-      <workItem from="1521712427846" duration="11962000" />
+      <workItem from="1521712427846" duration="12012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26786000" />
+    <option name="totallyTimeSpent" value="26836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
