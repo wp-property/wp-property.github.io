@@ -1,7 +1,7 @@
 {
   "name": "WP-Property",
   "version": "1.0.0",
-  "description": "",
+  "description": " +description: WordPress plugin for creating and managing highly customizable real estate, property management, and completely custom listing showcase websites.",
   "author": "UDX <denys@udx.io> (https://wp-property.github.io)",
   "license": "ISC",
   "repository": "https://github.com/wp-property/wp-property.git",
