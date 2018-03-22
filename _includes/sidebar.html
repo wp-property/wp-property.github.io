@@ -1,13 +1,7 @@
 <aside class="sidebar">
 
-  {% for doc in site.pages %}
-    {% if page.next == doc.path %}
-      {% assign next = doc %}
-    {% endif %}
-
-    {% if doc.next == page.path %}
-      {% assign previous = doc %}
-    {% endif %}
+  {% for doc in site.guides %}
+    {{ doc.content }}
   {% endfor %}
 
   [[[https://storage.googleapis.com/media.usabilitydynamics.com/2014/11/2c6fc7ac-wpproperty-plugin-icon-300x300.png|alt="WP-Property"|height=210px|width=210px]]](https://www.usabilitydynamics.com/product/wp-property)
