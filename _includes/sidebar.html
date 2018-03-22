@@ -1,4 +1,15 @@
 <aside class="sidebar">
+
+  {% for doc in site.pages %}
+    {% if page.next == doc.path %}
+      {% assign next = doc %}
+    {% endif %}
+
+    {% if doc.next == page.path %}
+      {% assign previous = doc %}
+    {% endif %}
+  {% endfor %}
+
   [[[https://storage.googleapis.com/media.usabilitydynamics.com/2014/11/2c6fc7ac-wpproperty-plugin-icon-300x300.png|alt="WP-Property"|height=210px|width=210px]]](https://www.usabilitydynamics.com/product/wp-property)
 
 
@@ -24,13 +35,15 @@
 
   ### Common Issues
   * [Licence Key not activating](Licence-Key-not-activating)
-  * [Could not do a request to UsabilityDynamics.com while activating add on](Could-not-do-a-request-to-UsabilityDynamics.com-while-activating-add-on)
+  * [Could not do a request to UsabilityDynamics.com while activating add
+  on](Could-not-do-a-request-to-UsabilityDynamics.com-while-activating-add-on)
   * [How to investigate any issue?](How-to-investigate-any-issue-in-WP-Property%3F)
   * [Will WP-Property work with any theme?](Will-WP-Property-work-with-any-theme%3F)
   * [Why don't I see any search results?](No-Search-Results-in-WP-Property-Search)
   * [Error-> No pagination on search results](No-pagination-on-WP-Property-search-results)
   * [Slow Back-end or Front-end after activation](Slow-Backend-or-Frontend-performance-when-WP-Property-is-activated)
-  * [The content moves to the left in a third party theme](The-content-moves-to-the-side-in-WP-Property-while-using-a-third-party-theme)
+  * [The content moves to the left in a third party
+  theme](The-content-moves-to-the-side-in-WP-Property-while-using-a-third-party-theme)
   * [Google Map is not Showing](Why-is-the-Google-Map-not-displayed-in-WP-Property%3F)
   * [No Search Results](No-Search-Results-in-WP-Property-Search)
   * [Parse error-syntax error unexpected T_STRING](Parse-error-syntax-error-unexpected-T_STRING)
