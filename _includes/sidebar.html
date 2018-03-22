@@ -1,26 +1,26 @@
 <aside class="sidebar">
 
   {% for doc in site.data.toc %}
-  <h2 class="alt-h4">{{ section[0] }}</h2>
+  <h2 class="alt-h4">{{ doc[0] }}</h2>
 
   <ul class="mt-2 mb-4 list-style-none">
-    {% for item in section[1] %}
+    {% for item in doc[1] %}
     <li>
       {% if item.url %}
-      {% assign link = item %}
+        {% assign link = item %}
       {% else %}
-      {% for doc in site.pages %}
-      {% if doc.path == item %}
-      {% assign link = doc %}
-      {% break %}
-      {% endif %}
-      {% endfor %}
+        {% for doc in site.pages %}
+          {% if doc.path == item %}
+            {% assign link = doc %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
       {% endif %}
 
       {% if page.url == link.url %}
-      {% assign classes = "text-brand-red" %}
+        {% assign classes = "text-brand-red" %}
       {% else %}
-      {% assign classes = "text-gray-light" %}
+        {% assign classes = "text-gray-light" %}
       {% endif %}
 
       <a class="d-block no-underline py-1 {{classes}}" href="{{ link.url }}">{{ link.title }}</a>
