@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ### Welcome to the WP-Property wiki! - [View short screencast on how it works.](https://player.vimeo.com/video/14280748?title=0&amp;byline=0&amp;portrait=)
 ***
 

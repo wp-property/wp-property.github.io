@@ -10,12 +10,10 @@
 <main class="main">
   <div class="content">
     <div class="row">
-      <div class="col-md-3">
-        <aside class="sidebar">
-
-        </aside>
+      <div class="col-3">
+        {% include sidebar.html %}
       </div>
-      <div class="col-md-9">
+      <div class="col-9">
         {{ content }}
       </div>
     </div>
