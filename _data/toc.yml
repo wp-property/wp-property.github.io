@@ -1,28 +1,21 @@
 Intro:
   - docs/index.md
   - docs/installing.md
-  - docs/deploy.md
-    <!--* [Home](Home)-->
-    <!--* [Installing](Installing-WP-Property)-->
-    <!--* [Translating](Translating-WP-Property)-->
-    <!--* [Shortcode Cheatsheet](WP-Property-Shortcode-Cheatsheet)-->
-    <!--* [Installing Add ons](Installing-WP-Property-Add-ons)-->
-Advanced:
-  - docs/index.md
-  - docs/deploy.md
-
-Settings:
+  - docs/translating.md
+  - docs/shortcode_cheatsheet.md
+  - docs/installing_addons.md
+#Settings:
     <!--* [Main Tab](Main-Tab-in-WP-Property-Settings)-->
     <!--* [Display Tab](Display-Tab-in-WP-Property-Settings)-->
     <!--* [Developer Tab](Developer-Tab-in-WP-Property-Settings)-->
     <!--* [Help Tab](The-Help-Tab-in-WP-Property-Settings)-->
-Guides:
+#Guides:
     <!--* [How to add, delete or attach images?](How-to-add,-delete-or-attach-images-in-WP-Property%3F)-->
     <!--* [Adding auto populated field to search](How-to-add-auto-populated-field-to-WP-Property-search)-->
     <!--* [Will WP-Property work with any theme?](Will-WP-Property-work-with-any-theme%3F)-->
     <!--* [Accessing WP Property with a non admin user role](Accessing-WP-Property-with-a-non-admin-user-role)-->
     <!--* [Styling Oembed field on a Single Property Page](Styling-Oembed-field-on-a-Single-Property-Page-in-WP-Property)-->
-Common Issues:
+#Common Issues:
     <!--* [Licence Key not activating](Licence-Key-not-activating)-->
     <!--* [Could not do a request to UsabilityDynamics.com while activating add-->
     <!--on](Could-not-do-a-request-to-UsabilityDynamics.com-while-activating-add-on)-->
@@ -37,7 +30,7 @@ Common Issues:
     <!--* [No Search Results](No-Search-Results-in-WP-Property-Search)-->
     <!--* [Parse error-syntax error unexpected T_STRING](Parse-error-syntax-error-unexpected-T_STRING)-->
     <!--* [Issues with Polylang plug-in](Issues-With-Polylang-plug-in)-->
-For Developers:
+#For Developers:
     <!--* [Customizing Templates](Customizing-Templates-in-WP-Property)-->
     <!--* [How to customize Overview Page?](How-to-customize-Overview-Page-in-WP-Property%3F)-->
     <!--* [How to override specific functionality?](How-to-override-specific-functionality-in-WP-Property%3F)-->

@@ -1,5 +1,5 @@
 ---
-title: Welcome to the WP-Property wiki!
+title: Home
 permalink: /
 ---
 
