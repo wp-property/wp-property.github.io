@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4812f42b-9efe-4418-b6fe-5c8566ba43d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/frontpage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="wp-property.github.io.iws" />
@@ -40,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="22" column="117" selection-start-line="22" selection-start-column="117" selection-end-line="22" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/_includes/frontpage.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="525">
-                <caret line="79" column="448" selection-start-line="79" selection-start-column="448" selection-end-line="79" selection-end-column="448" />
+              <first_editor relative-caret-position="204">
+                <caret line="12" column="150" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="150" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -63,8 +63,8 @@
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_includes/frontpage.md" />
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -322,12 +322,12 @@
       <workItem from="1521549475857" duration="5009000" />
       <workItem from="1521559893674" duration="7232000" />
       <workItem from="1521708812363" duration="2583000" />
-      <workItem from="1521712427846" duration="4362000" />
+      <workItem from="1521712427846" duration="4773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19186000" />
+    <option name="totallyTimeSpent" value="19597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -548,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="306">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -557,8 +557,8 @@
     <entry file="file://$PROJECT_DIR$/_includes/frontpage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="525">
-            <caret line="79" column="448" selection-start-line="79" selection-start-column="448" selection-end-line="79" selection-end-column="448" />
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="150" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="150" />
             <folding />
           </first_editor>
           <second_editor />
@@ -567,8 +567,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="117" selection-start-line="22" selection-start-column="117" selection-end-line="22" selection-end-column="117" />
           <folding />
         </state>
       </provider>

@@ -7,9 +7,20 @@
 <body>
 {% include header.html %}
 
-<div class="main-content">
-  {{ content }}
-</div>
+<main class="main">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-3">
+        <aside class="sidebar">
+
+        </aside>
+      </div>
+      <div class="col-md-9">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</main>
 
 {% include footer.html %}
 </body>
