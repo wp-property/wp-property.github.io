@@ -1,3 +1,8 @@
+---
+title: Installing
+permalink: /installing/
+---
+
 WP-Property is a free plugin for WordPress and is available for download from the official [WordPress Plugin Directory](http://wordpress.org/plugins/wp-property/). WP-Property supports both WordPress manual and automatic plugin [installation methods](https://codex.wordpress.org/Managing_Plugins#Installing_Plugins).
 
 ## Automatic Installation

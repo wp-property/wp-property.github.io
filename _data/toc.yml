@@ -2,16 +2,15 @@ Intro:
   - docs/index.md
   - docs/installing.md
   - docs/deploy.md
-Advanced:
-  - docs/index.md
-  - docs/deploy.md
-
-Intro:
     <!--* [Home](Home)-->
     <!--* [Installing](Installing-WP-Property)-->
     <!--* [Translating](Translating-WP-Property)-->
     <!--* [Shortcode Cheatsheet](WP-Property-Shortcode-Cheatsheet)-->
     <!--* [Installing Add ons](Installing-WP-Property-Add-ons)-->
+Advanced:
+  - docs/index.md
+  - docs/deploy.md
+
 Settings:
     <!--* [Main Tab](Main-Tab-in-WP-Property-Settings)-->
     <!--* [Display Tab](Display-Tab-in-WP-Property-Settings)-->
