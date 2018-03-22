@@ -1,10 +1,14 @@
 Intro:
-    - title: Home
-      file: docs/index.md
-      url: /
-    - title: Installing
-      file: docs/installing.md
-      url: /installing
+  - README.md
+  - docs/installing.md
+  - docs/deploy.md
+Advanced:
+  - docs/index.md
+  - docs/deploy.md
+
+Intro:
+    <!--* [Home](Home)-->
+    <!--* [Installing](Installing-WP-Property)-->
     <!--* [Translating](Translating-WP-Property)-->
     <!--* [Shortcode Cheatsheet](WP-Property-Shortcode-Cheatsheet)-->
     <!--* [Installing Add ons](Installing-WP-Property-Add-ons)-->
