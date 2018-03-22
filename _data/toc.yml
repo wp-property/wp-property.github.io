@@ -4,7 +4,8 @@ Intro:
   - docs/translating.md
   - docs/shortcode_cheatsheet.md
   - docs/installing_addons.md
-#Settings:
+Settings:
+  - docs/installing_addons.md
     <!--* [Main Tab](Main-Tab-in-WP-Property-Settings)-->
     <!--* [Display Tab](Display-Tab-in-WP-Property-Settings)-->
     <!--* [Developer Tab](Developer-Tab-in-WP-Property-Settings)-->
