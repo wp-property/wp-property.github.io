@@ -22,12 +22,12 @@
       {% endif %}
 
       {% if page.url == link.url %}
-        {% assign classes = "text-brand-red" %}
+        {% assign classes = "active" %}
       {% else %}
-        {% assign classes = "text-gray-light" %}
+        {% assign classes = "" %}
       {% endif %}
 
-      <a class="d-block no-underline py-1 {{classes}}" href="{{ link.url }}">{{ link.title }}</a>
+      <a class="{{classes}}" href="{{ link.url }}">{{ link.title }}</a>
     </li>
     {% endfor %}
   </ul>

@@ -10,9 +10,16 @@ body {
 }
 
 /* Main styles */
-.h1 {
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
   margin: 0 0 0.6em;
   font-size: 2em;
+}
+h2 {
+  margin: 0 0 0.4em;
+  font-size: 1.6em;
 }
 /* Main styles */
 
@@ -23,9 +30,40 @@ header.header {
 }
 header.header .logotype {
   text-align: left;
-  font-size: 1.5em;
+  font-size: 2.5em;
+  text-decoration: none;
+  color: #24292e;
 }
 header.header .site-description {
   text-align: right;
+  font-size: 1.2em;
 }
 /* Header */
+
+/* Sidebar */
+.sidebar {
+
+}
+.sidebar .logo-box {
+  margin-bottom: 1em;
+}
+.sidebar .logo-box img {
+   max-width: 100%;
+ }
+
+.sidebar ul {
+  margin: 0.5em 0 1.5em;
+  padding: 0;
+  list-style: none;
+}
+.sidebar ul li {
+  padding: 0.2em;
+}
+.sidebar ul li a {
+  text-decoration: none;
+  color: #6a737d;
+}
+.sidebar ul li a.active {
+  color: #EF4136;
+}
+/* Sidebar */
