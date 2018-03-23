@@ -13,60 +13,100 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
 }
+
 h1 {
   margin: 0 0 0.6em;
   font-size: 2em;
 }
+
 h2 {
   margin: 0 0 0.4em;
   font-size: 1.6em;
 }
+
+a, a:hover {
+  color: #f05323 !important;
+}
+
+table {
+  border: 1px solid #dee2e6;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+table td,
+table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-bottom: 1px solid #dee2e6;
+}
+
+table thead td,
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
 /* Main styles */
 
 /* Header */
 header.header {
   text-align: center;
-  padding: 2em 0;
-  border-bottom: 1px #e1e4e8 solid;
+  padding: 5em 0;
   margin-bottom: 3.5em;
+  background-image: linear-gradient(120deg, #155799, #f05323);
+  color: #FFF;
 }
+
 header.header .logotype {
-  text-align: left;
   font-size: 2.5em;
+  margin-bottom: 0.5em;
   text-decoration: none;
   color: #24292e;
 }
-header.header .site-description {
-  text-align: right;
+
+header.header p {
   font-size: 1.2em;
 }
+
 /* Header */
 
 /* Sidebar */
 .sidebar {
 
 }
+
 .sidebar .logo-box {
   margin-bottom: 1em;
 }
+
 .sidebar .logo-box img {
-   max-width: 100%;
- }
+  max-width: 100%;
+}
 
 .sidebar ul {
   margin: 0.5em 0 1.5em;
   padding: 0;
   list-style: none;
 }
+
 .sidebar ul li {
   padding: 0.2em 0;
 }
+
 .sidebar ul li a {
   text-decoration: none;
   color: #6a737d;
-  font-weight: 100;
 }
+
 .sidebar ul li a.active {
-  color: #EF4136;
+  color: #f05323;
 }
+
 /* Sidebar */
+
+/* Container */
+
+/* Container */
