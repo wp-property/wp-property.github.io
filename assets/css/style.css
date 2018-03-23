@@ -112,7 +112,12 @@ header.header p {
 /* Sidebar */
 
 /* Container */
-
+pre {
+  border: 2px solid #e1e4e8;
+  border-right: 25px solid #e1e4e8;
+  padding: 1em 2em;
+  border-radius: 10px;
+}
 /* Container */
 
 /* Footer */
