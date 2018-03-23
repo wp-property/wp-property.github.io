@@ -28,6 +28,10 @@ a, a:hover {
   color: #f05323 !important;
 }
 
+img {
+  max-width: 100%;
+}
+
 table {
   border: 1px solid #dee2e6;
   width: 100%;
@@ -62,9 +66,9 @@ header.header {
 
 header.header .logotype {
   font-size: 2.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   text-decoration: none;
-  color: #24292e;
+  color: #FFF !important;
 }
 
 header.header p {
