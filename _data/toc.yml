@@ -4,3 +4,32 @@ Intro:
   - docs/translating.md
   - docs/shortcode-cheatsheet.md
   - docs/installing-addons.md
+Settings:
+  - docs/main-tab.md
+  - docs/display-tab.md
+  - docs/developer-tab.md
+  - docs/help-tab.md
+Guides:
+  - docs/how-to-add-images.md
+  - docs/how-to-add-auto-populated-field.md
+  - docs/will-wp-property-work-with-any-theme.md
+  - docs/accessing-wp-property-with-a-non-admin-user-role.md
+  - docs/styling-oembed-field-on-a-single-property-page-in-wp-property.md
+Common Issues:
+  - docs/licence-key-not-activating.md
+  - docs/could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on.md
+  - docs/how-to-investigate-any-issue-in-wp-property.md
+  - docs/no-search-results-in-wp-property-search.md
+  - docs/no-pagination-on-wp-property-search-results.md
+  - docs/slow-backend-or-frontend-performance-when-wp-property-is-activated.md
+  - docs/the-content-moves-to-the-side-in-wp-property-while-using-a-third-party-theme.md
+  - docs/why-is-the-google-map-not-displayed-in-wp-property.md
+  - docs/parse-error-syntax-error-unexpected-t_string.md
+  - docs/issues-with-polylang-plug-in.md
+For Developers:
+  - docs/customizing-templates.md
+  - docs/how-to-customize-overview-page-in-wp-property.md
+  - docs/how-to-override-specific-functionality-in-wp-property.md
+  - docs/a-list-of-filters-and-actions-in-wp-property.md
+  - docs/composer-module-development-for-wp-property.md
+  - docs/wp-property-setting-keys.md
