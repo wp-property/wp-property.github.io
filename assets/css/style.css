@@ -57,11 +57,12 @@ header.header .site-description {
   list-style: none;
 }
 .sidebar ul li {
-  padding: 0.2em;
+  padding: 0.2em 0;
 }
 .sidebar ul li a {
   text-decoration: none;
   color: #6a737d;
+  font-weight: 100;
 }
 .sidebar ul li a.active {
   color: #EF4136;
