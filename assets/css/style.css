@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
 body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
   padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
 }
+
+/* Main styles */
+.h1 {
+  margin: 0 0 0.6em;
+  font-size: 2em;
+}
+/* Main styles */
+
+/* Header */
+header.header {
+  text-align: center;
+  padding: 2em 0;
+}
+header.header .logotype {
+  text-align: left;
+  font-size: 1.5em;
+}
+header.header .site-description {
+  text-align: right;
+}
+/* Header */
