@@ -1,5 +1,5 @@
 ---
-title: 
+title: Parse error syntax error unexpected T_STRING
 permalink: /parse-error-syntax-error-unexpected-t_string/
 ---
 

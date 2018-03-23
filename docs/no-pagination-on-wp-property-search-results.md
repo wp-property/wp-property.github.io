@@ -1,5 +1,5 @@
 ---
-title:
+title: No pagination on WP Property search results
 permalink: /no-pagination-on-wp-property-search-results/
 ---
 
