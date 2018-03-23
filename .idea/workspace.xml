@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4812f42b-9efe-4418-b6fe-5c8566ba43d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on.md" afterPath="$PROJECT_DIR$/docs/could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/no-pagination-on-wp-property-search-results.md" afterPath="$PROJECT_DIR$/docs/no-pagination-on-wp-property-search-results.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/parse-error-syntax-error-unexpected-t_string.md" afterPath="$PROJECT_DIR$/docs/parse-error-syntax-error-unexpected-t_string.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-propertywhy-is-the-google-map-not-displayed-in-wp-property.md" afterPath="$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-property.md" />
     </list>
     <ignored path="wp-property.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,9 +76,22 @@
       <file leaf-file-name="toc.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_data/toc.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="25" column="59" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="why-is-the-google-map-not-displayed-in-wp-property.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-property.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="62" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="62" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -134,7 +145,6 @@
         <option value="$PROJECT_DIR$/docs/no-search-results-in-wp-property-search.md" />
         <option value="$PROJECT_DIR$/docs/slow-backend-or-frontend-performance-when-wp-property-is-activated.md" />
         <option value="$PROJECT_DIR$/docs/the-content-moves-to-the-side-in-wp-property-while-using-a-third-party-theme.md" />
-        <option value="$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-propertywhy-is-the-google-map-not-displayed-in-wp-property.md" />
         <option value="$PROJECT_DIR$/docs/issues-with-polylang-plug-in.md" />
         <option value="$PROJECT_DIR$/docs/customizing-templates.md" />
         <option value="$PROJECT_DIR$/docs/how-to-customize-overview-page-in-wp-property.md" />
@@ -146,6 +156,7 @@
         <option value="$PROJECT_DIR$/docs/could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on.md" />
         <option value="$PROJECT_DIR$/docs/no-pagination-on-wp-property-search-results.md" />
         <option value="$PROJECT_DIR$/docs/parse-error-syntax-error-unexpected-t_string.md" />
+        <option value="$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-propertywhy-is-the-google-map-not-displayed-in-wp-property.md" />
       </list>
     </option>
   </component>
@@ -394,19 +405,19 @@
       <workItem from="1521549475857" duration="5009000" />
       <workItem from="1521559893674" duration="7232000" />
       <workItem from="1521708812363" duration="2583000" />
-      <workItem from="1521712427846" duration="22701000" />
+      <workItem from="1521712427846" duration="22835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37525000" />
+    <option name="totallyTimeSpent" value="37659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -824,17 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-propertywhy-is-the-google-map-not-displayed-in-wp-property.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/issues-with-polylang-plug-in.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -945,10 +945,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/why-is-the-google-map-not-displayed-in-wp-property.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="62" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="62" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_data/toc.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="374">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="59" />
           <folding />
         </state>
       </provider>
