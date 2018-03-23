@@ -27,6 +27,8 @@ h2 {
 header.header {
   text-align: center;
   padding: 2em 0;
+  border-bottom: 1px #e1e4e8 solid;
+  margin-bottom: 3.5em;
 }
 header.header .logotype {
   text-align: left;
