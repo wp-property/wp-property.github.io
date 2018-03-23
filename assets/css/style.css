@@ -114,3 +114,15 @@ header.header p {
 /* Container */
 
 /* Container */
+
+/* Footer */
+footer.footer {
+  padding: 3em 0;
+  border-top: 1px #e1e4e8 solid;
+  margin-top: 5em;
+}
+
+footer.footer p {
+  margin: 0 !important;
+}
+/* Footer */
