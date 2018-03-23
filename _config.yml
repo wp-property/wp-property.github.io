@@ -1,0 +1,15 @@
+title: WP Property
+description: WP-Property is the most popular plugin for creating and managing highly customizable real estate, property management, and completely custom listing showcase websites.
+
+exclude:
+  - node_modules
+  - package.json
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+  load_paths:
+    - node_modules
+    - node_modules/**/*/node_modules
+
+branch: master
