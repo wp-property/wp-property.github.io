@@ -2,10 +2,16 @@
 layout: default
 ---
 
-<div class="col"></div>
-<div class="col-8">
+<div class="col-12">
   <div class="content-body frontpage-content">
     <h1 class="page-title">Front page</h1>
+
+
+
+    <h1 class="page-title">Apps</h1>
+    {% assign apps = site.apps %}
+    {% for app in apps %}
+      {% include app.html app=app %}
+    {% endfor %}
   </div>
 </div>
-<div class="col"></div>
