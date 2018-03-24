@@ -1,6 +1,6 @@
 ---
 title: Translating
-permalink: /translating/
+permalink: /docs/translating/
 ---
 
 We have added all of out plugins on poeditor.com, so you can easily translate them online, from any platform and without the need for extra software. The process is as follows:

@@ -1,6 +1,6 @@
 ---
 title: How to add, delete or attach images in WP Property?
-permalink: /how-to-add-images/
+permalink: /docs/how-to-add-images/
 ---
 
 # How to add images:

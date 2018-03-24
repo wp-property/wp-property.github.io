@@ -1,6 +1,6 @@
 ---
 title: Parse error syntax error unexpected T_STRING
-permalink: /parse-error-syntax-error-unexpected-t_string/
+permalink: /docs/parse-error-syntax-error-unexpected-t_string/
 ---
 
 This can cause blank screen on your site or Fatal Errors.

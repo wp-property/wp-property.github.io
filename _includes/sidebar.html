@@ -1,13 +1,9 @@
 <aside class="sidebar">
 
-  <!--<div class="logo-box">-->
-    <!--<img src="{{site.logo_url}}" alt="{{site.title}}" />-->
-  <!--</div>-->
-
   {% for doc in site.data.toc %}
-  <h2 class="alt-h4">{{ doc[0] }}</h2>
+  <h2>{{ doc[0] }}</h2>
 
-  <ul class="mt-2 mb-4 list-style-none">
+  <ul>
     {% for item in doc[1] %}
     <li>
       {% if item.url %}
@@ -32,11 +28,5 @@
     {% endfor %}
   </ul>
   {% endfor %}
-
-  <!--[[[https://storage.googleapis.com/media.usabilitydynamics.com/2014/11/2c6fc7ac-wpproperty-plugin-icon-300x300.png|alt="WP-Property"|height=210px|width=210px]]](https://www.usabilitydynamics.com/product/wp-property)-->
-
-
-
-
 
 </aside>

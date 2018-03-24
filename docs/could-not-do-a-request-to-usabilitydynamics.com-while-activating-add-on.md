@@ -1,6 +1,6 @@
 ---
 title: Could not do a request to UsabilityDynamics.com while activating add on
-permalink: /could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on/
+permalink: /docs/could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on/
 ---
 
 When receiving an error: **"There was an error making activation request. Could not do a request to UsabilityDynamics.com"** when trying to activate a plug-in, please contact your host provider and ask them to let the requests be done for UsabilityDynamics site. They should support  `SSL V3`. 

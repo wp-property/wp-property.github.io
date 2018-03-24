@@ -1,6 +1,6 @@
 ---
 title: Installing Add ons
-permalink: /installing_addons/
+permalink: /docs/installing_addons/
 ---
 
 After you have downloaded the add-on, visit your [UD Account](https://usabilitydynamics.com/account/). You will find download links for your products. Download them to your computer and Upload as new plugin on your site. See screenshots below.

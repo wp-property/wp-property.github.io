@@ -1,6 +1,6 @@
 ---
 title: How to investigate any issue in WP Property?
-permalink: /how-to-investigate-any-issue-in-wp-property/
+permalink: /docs/how-to-investigate-any-issue-in-wp-property/
 ---
 
 Try to do the following things:

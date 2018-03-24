@@ -1,6 +1,6 @@
 ---
 title: Main Tab
-permalink: /main-tab/
+permalink: /docs/main-tab/
 ---
 
 This is a showcase and important notes of the ‘Main’ tab located in WP-Property Settings.

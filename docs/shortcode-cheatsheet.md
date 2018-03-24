@@ -1,6 +1,6 @@
 ---
 title: Shortcode Cheatsheet
-permalink: /shortcode_cheatsheet/
+permalink: /docs/shortcode_cheatsheet/
 ---
 
 This page is a summary of the shortcodes available in WP-Property. Shortcodes are a WordPress technique which makes it easy to insert advanced content into your website. A shortcode placed in the back-end will display related content on the front-end. For example, with WP-Property installed, simply placing this Property Search shortcode **[property_search]** into your page will draw a Property Search Form on the front-end of the website! It's that easy!

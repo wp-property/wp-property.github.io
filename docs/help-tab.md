@@ -1,6 +1,6 @@
 ---
 title: Help Tab
-permalink: /help-tab/
+permalink: /docs/help-tab/
 ---
 
 This tutorial explains the Help tab in WP-Property Settings. This tab allows you to do many useful things that will help you.

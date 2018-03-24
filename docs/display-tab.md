@@ -1,6 +1,6 @@
 ---
 title: Display Tab
-permalink: /display-tab/
+permalink: /docs/display-tab/
 ---
 
 This tutorial explains the Display tab in WP-Property Settings. This tab allows you to do many things. Make custom picture sizes that will let you to make posting pictures easier. Change the way you view property photos with the use of Fancy Box, Choose  to use pagination on the bottom of property pages and whether or not to show child properties.Manage Google map attributes and map thumbnail sizes. Select here which attributes you want to show once a property is pin pointed on your map.Change your currency and placement of symbols.

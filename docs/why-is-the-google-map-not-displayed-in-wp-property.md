@@ -1,6 +1,6 @@
 ---
 title: Why is the Google Map not displayed in WP Property?
-permalink: /why-is-the-google-map-not-displayed-in-wp-property/
+permalink: /docs/why-is-the-google-map-not-displayed-in-wp-property/
 ---
 
 Since July of 2016, Google API key is mandatory. The key is free, however you need to insert it on your site here: 

@@ -1,6 +1,6 @@
 ---
 title: No Search Results in WP Property Search
-permalink: /no-search-results-in-wp-property-search/
+permalink: /docs/no-search-results-in-wp-property-search/
 ---
 
 If faced with the **No search results. None found** message, consider the following:

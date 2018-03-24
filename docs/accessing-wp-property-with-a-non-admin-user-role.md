@@ -1,6 +1,6 @@
 ---
 title: Editing Accessing WP Property with a non admin user role
-permalink: /accessing-wp-property-with-a-non-admin-user-role/
+permalink: /docs/accessing-wp-property-with-a-non-admin-user-role/
 ---
 
 Only administrators can access properties and WP-Property settings on backend.  

@@ -1,6 +1,6 @@
 ---
 title: How to override specific functionality in WP Property?
-permalink: /how-to-override-specific-functionality-in-wp-property/
+permalink: /docs/how-to-override-specific-functionality-in-wp-property/
 ---
 
 Everything in ``template-functions.php`` is safe to override, just create a function with the same name in your theme's ``functions.php`` file.

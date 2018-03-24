@@ -1,6 +1,6 @@
 ---
 title: No pagination on WP Property search results
-permalink: /no-pagination-on-wp-property-search-results/
+permalink: /docs/no-pagination-on-wp-property-search-results/
 ---
 
 Check in settings of property search widget that pagination is enabled:

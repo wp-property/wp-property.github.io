@@ -1,6 +1,6 @@
 ---
 title: Issues With Polylang plug in
-permalink: /issues-with-polylang-plug-in/
+permalink: /docs/issues-with-polylang-plug-in/
 ---
 
 If you are having issues with polylang plug-in compatibility, you should disable the WPML by doing the following: 

@@ -1,6 +1,6 @@
 ---
 title: Customizing Templates in WP Property
-permalink: /customizing-templates/
+permalink: /docs/customizing-templates/
 ---
 
 This series of tutorials is intended for web professionals who are customizing WP-Property. Familiarity with PHP and CSS, or the willingness to learn, is necessary. Additionally, an understanding of the WordPress API and templating is very useful.

@@ -1,6 +1,6 @@
 ---
 title: How to customize Overview Page in WP Property?
-permalink: /how-to-customize-overview-page-in-wp-property/
+permalink: /docs/how-to-customize-overview-page-in-wp-property/
 ---
 
 The core version of WP-Property does not include a user interface for customizing which attributes are displayed when the `[property_overview]` shortcode is used. However, a fairly simple templating system is available to let you customize the templates with some basic knowledge of PHP, CSS & WordPress. 

@@ -1,6 +1,6 @@
 ---
 title: How to add auto populated field to WP Property search
-permalink: /how-to-add-auto-populated-field/
+permalink: /docs/how-to-add-auto-populated-field/
 ---
 
 WP-Property has an ability to auto populate WP Property Search fields. You can use any attribute for that. It can be City or Property Type, etc

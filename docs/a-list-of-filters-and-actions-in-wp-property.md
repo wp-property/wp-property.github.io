@@ -1,6 +1,6 @@
 ---
 title: A List of Filters and Actions in WP Property
-permalink: /a-list-of-filters-and-actions-in-wp-property/
+permalink: /docs/a-list-of-filters-and-actions-in-wp-property/
 ---
 
 ## Actions

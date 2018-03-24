@@ -1,6 +1,6 @@
 ---
 title: WP Property Setting Keys
-permalink: /wp-property-setting-keys/
+permalink: /docs/wp-property-setting-keys/
 ---
 
 The following setting keys were added by action_hooks.php in a very un-sexy way before.

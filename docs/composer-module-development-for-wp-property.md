@@ -1,6 +1,6 @@
 ---
 title: Composer Module Development for WP Property
-permalink: /composer-module-development-for-wp-property/
+permalink: /docs/composer-module-development-for-wp-property/
 ---
 
 Guide

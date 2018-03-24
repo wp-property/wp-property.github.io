@@ -1,6 +1,6 @@
 ---
 title: Developer Tab
-permalink: /developer-tab/
+permalink: /docs/developer-tab/
 ---
 
 This tutorial explains the Developer tab in WP-Property Settings.

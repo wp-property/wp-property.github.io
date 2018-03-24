@@ -1,6 +1,6 @@
 ---
 title: Licence-Key-not-activating
-permalink: /licence-key-not-activating/
+permalink: /docs/licence-key-not-activating/
 ---
 
 By default you can use 2 domains for each license. But if you copied your database to another domain you will have an issue with our products activating.  Reason being, an instance hash is stored in the options table that is related to the URL of the site on which the product was initially activated.
