@@ -21,7 +21,10 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: apps
+    values:
+      layout: frontpage
+  - scope:
+      path: "apps"
     values:
       layout: app
   - scope:
