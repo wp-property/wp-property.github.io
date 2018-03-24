@@ -15,6 +15,7 @@ header.header {
   padding: 1em 0;
   margin-bottom: 3.5em;
   color: #FFF;
+  border-bottom: 1px #e1e4e8 solid;
 }
 
 header.header .logotype {
@@ -45,6 +46,7 @@ header.header nav a {
   color: #24292e;
   font-size: 14px;
   font-weight: 600;
+  padding: 0 0.5em;
 }
 
 /* Header */
