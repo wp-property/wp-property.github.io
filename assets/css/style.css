@@ -121,11 +121,17 @@ header.header nav a {
   font-size: 1.6em;
 }
 
-.content-body h1:first-child,
-.content-body h2:first-child,
-.content-body h3:first-child {
-  margin-top: 0;
-  margin-bottom: 2.8em;
+/*.content-body h1:first-child,*/
+/*.content-body h2:first-child,*/
+/*.content-body h3:first-child {*/
+  /*margin-top: 0;*/
+  /*margin-bottom: 2.8em;*/
+/*}*/
+
+.content-body h1.page-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
 }
 
 .content-body a,
@@ -176,6 +182,10 @@ footer.footer {
 
 footer.footer p {
   margin: 0 !important;
+  font-weight: 600;
 }
 
+footer.footer p a {
+  color: #24292e;
+}
 /* Footer */
