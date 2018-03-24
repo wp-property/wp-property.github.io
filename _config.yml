@@ -13,4 +13,20 @@ sass:
     - node_modules
     - node_modules/**/*/node_modules
 
+collections:
+  apps:
+    output: true
+    permalink: /apps/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: apps
+    values:
+      layout: app
+  - scope:
+      path: "docs"
+    values:
+      layout: docs
+
 branch: master
