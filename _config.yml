@@ -20,7 +20,7 @@ collections:
 
 defaults:
   - scope:
-      path: "apps"
+      path: ""
       type: apps
     values:
       layout: app
