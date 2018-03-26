@@ -7,9 +7,9 @@ layout: default
     <h1 class="page-title">Front page</h1>
 
 
-    {% for app in site.data.apps %}
-    <h1 class="page-title">{% app[0] %}</h1>
-    {% for item in app[1] %}
+    {% for items in site.data.apps %}
+    <h1 class="page-title">{% items[0] %}</h1>
+    {% for item in items[1] %}
     <div class="col-4">
       <a href="{{ item.url }}">
         <h3 class="h4 px-3 pt-3">{{ item.title }}</h3>
