@@ -7,16 +7,16 @@ layout: default
     <h1 class="page-title">Front page</h1>
 
 
-    <h1 class="page-title">Apps</h1>
-    {% for app in site.data.toc %}
-      {% for item in app[1] %}
-      <div class="col-4">
-        <a href="{{ item.url }}">
-          <h3 class="h4 px-3 pt-3">{{ item.title }}</h3>
-          <p class="text-gray lh-condensed px-3 pb-3">{{ item.description }}</p>
-        </a>
-      </div>
-      {% endfor %}
+    {% for apps in site.apps.toc %}
+    <h1 class="page-title">{% apps[0] %}</h1>
+    {% for app in apps[1] %}
+    <div class="col-4">
+      <a href="{{ app.url }}">
+        <h3 class="h4 px-3 pt-3">{{ app.title }}</h3>
+        <p class="text-gray lh-condensed px-3 pb-3">{{ app.description }}</p>
+      </a>
+    </div>
+    {% endfor %}
     {% endfor %}
   </div>
 </div>
