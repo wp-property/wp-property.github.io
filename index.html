@@ -22,11 +22,11 @@ layout: default
     <div class="row">
       <div class="col-12">{{ themes_list[0] }}</div>
         {% for theme_item in themes_list[1] %}
-          {% if item.url %}
-            {% assign link = item %}
+          {% if theme_item.url %}
+            {% assign link = theme_item %}
           {% else %}
         {% for doc in site.pages %}
-          {% if doc.path == item %}
+          {% if doc.path == theme_item %}
             {% assign link = doc %}
             {% break %}
           {% endif %}
