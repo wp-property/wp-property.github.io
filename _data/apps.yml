@@ -24,21 +24,3 @@ Addons:
   - title: WP-Property: Importer
     slug: importer
     description: The XMLI Importer enables you to automatically import property listings directly into your website. This includes MLS, RETS, XML, CSV formats. Properties are created, merged, removed, or updated according to rules you specify.
-  - title: WP-Property: PDF Flyer
-    slug: pdf-flyer
-    description: Allows the website owner to quickly generate PDF flyers, or brochures, ready for printing or download.
-  - title: WP-Property: Power Tools
-    slug: power-tools
-    description: Extra functionality which includes capability management, white labeling the control panel, and changes menu titles.
-  - title: WP-Property: Responsive Slideshow
-    slug: responsive-slideshow
-    description: Allows you to insert a responsive slideshow into any property page with lightbox option
-  - title: WP-Property: Slideshow
-    slug: slideshow
-    description: Allows you to insert a slideshow into any property page, home page, or virtually anywhere in your blog.
-  - title: WP-Property: Super Map
-    slug: super-map
-    description: Lets you put a large interactive map virtually anywhere in your WordPress setup. The map lets your visitors quickly view the location of all your properties, and filter them down by attributes.
-  - title: WP-Property: Terms
-    slug: terms
-    description: Create any number of additional taxonomies and categorize your listings into search-friendly terms.
