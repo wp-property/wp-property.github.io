@@ -1,3 +1,7 @@
 Apps:
-  - apps/ci-reporter.md
-  - apps/commitlint.md
+  - title: CI Reporter
+    description: Pastes the error output of a failing build into the relevant PR.
+    url: apps/ci-reporter
+  - title: Commitlint
+    url: apps/commitlint
+    description: Lints all commits of new or edited pull requests and sets an appropriate status check.
