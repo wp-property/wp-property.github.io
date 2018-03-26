@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Featured Apps
+title: Addons
 ---
 
-{% for apps_list in site.data.addons %}
+{% for addons_list in site.data.addons %}
 <h1 class="page-title">{{ page.title }}</h1>
-<div class="col-12">{{ apps_list[0] }}</div>
-  {% for item in apps_list[1] %}
+<div class="col-12">{{ addons_list[0] }}</div>
+  {% for addon_item in addons_list[1] %}
     <div class="col-4">
-      <a href="{{ item.slug }}">{{ item.title }}</a>
+      <a href="{{ addon_item.slug }}">{{ addon_item.title }}</a>
     </div>
   {% endfor %}
 {% endfor %}

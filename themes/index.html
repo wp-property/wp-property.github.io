@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Featured Apps
+title: Themes
 ---
 
-{% for apps_list in site.data.themes %}
+{% for themes_list in site.data.themes %}
 <h1 class="page-title">{{ page.title }}</h1>
-<div class="col-12">{{ apps_list[0] }}</div>
-  {% for item in apps_list[1] %}
+<div class="col-12">{{ themes_list[0] }}</div>
+  {% for theme_item in themes_list[1] %}
     <div class="col-4">
-      <a href="{{ item.slug }}">{{ item.title }}</a>
+      <a href="{{ theme_item.slug }}">{{ theme_item.title }}</a>
     </div>
   {% endfor %}
 {% endfor %}
