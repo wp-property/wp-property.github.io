@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
+
 <div class="col"></div>
 <div class="col-8">
   <div class="content-body apps-content">
     <h1 class="page-title">Featured Apps</h1>
-
+    {% for items in site.data.apps %}
+    <h1 class="page-title">{% items[0] %}</h1>
+    {% for item in items[1] %}
+    <div class="col-4">
+      <a href="{{ item.url }}">
+        <h3 class="h4 px-3 pt-3">{{ item.title }}</h3>
+        <p class="text-gray lh-condensed px-3 pb-3">{{ item.description }}</p>
+      </a>
+    </div>
+    {% endfor %}
+    {% endfor %}
   </div>
 </div>
 <div class="col"></div>
