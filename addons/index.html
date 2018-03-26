@@ -8,10 +8,10 @@ title: Addons
 <div class="col-12">{{ addons_list[0] }}</div>
   {% for addon_item in addons_list[1] %}
     {% if theme_item.url %}
-      {% assign link = theme_item %}
+      {% assign link = addon_item %}
     {% else %}
       {% for doc in site.pages %}
-        {% if doc.path == theme_item %}
+        {% if doc.path == addon_item %}
           {% assign link = doc %}
           {% break %}
         {% endif %}
