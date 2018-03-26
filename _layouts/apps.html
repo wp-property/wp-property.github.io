@@ -5,7 +5,9 @@ layout: default
 <div class="col-8">
   <div class="content-body apps-content">
     <h1 class="page-title">Featured Apps</h1>
-    {{ content }}
+    {% for app in site.apps.toc %}
+      {% include app.html app=app %}
+    {% endfor %}
   </div>
 </div>
 <div class="col"></div>
