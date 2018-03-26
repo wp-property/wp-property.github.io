@@ -18,10 +18,10 @@ layout: default
       <div class="col"></div>
     </div>
 
-    {% for themes_list in site.data.themes limit:3 %}
+    {% for themes_list in site.data.themes %}
     <div class="row">
       <div class="col-12">{{ themes_list[0] }}</div>
-        {% for theme_item in themes_list[1] %}
+        {% for theme_item in themes_list[1] limit:3 %}
           {% if theme_item.url %}
             {% assign link = theme_item %}
           {% else %}
@@ -39,10 +39,10 @@ layout: default
     </div>
     {% endfor %}
 
-    {% for addons_list in site.data.addons limit:6 %}
+    {% for addons_list in site.data.addons %}
     <div class="row">
       <div class="col-12">{{ addons_list[0] }}</div>
-      {% for addon_item in addons_list[1] %}
+      {% for addon_item in addons_list[1] limit:6 %}
         {% if theme_item.url %}
           {% assign link = theme_item %}
         {% else %}
@@ -54,7 +54,7 @@ layout: default
           {% endfor %}
         {% endif %}
       <div class="col-4">
-        <a href="{{ addon_item.slug }}">{{ addon_item.title }}</a>
+        <a href="{{ link.url }}">{{ link.title }}</a>
       </div>
       {% endfor %}
     </div>
