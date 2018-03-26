@@ -7,10 +7,8 @@ layout: default
     <h1 class="page-title">Front page</h1>
 
 
-
     <h1 class="page-title">Apps</h1>
-    {% assign apps = site.apps %}
-    {% for app in apps %}
+    {% for app in site.apps.toc %}
       {% include app.html app=app %}
     {% endfor %}
   </div>
