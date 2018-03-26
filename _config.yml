@@ -17,9 +17,13 @@ sass:
 
 defaults:
   - scope:
-      path: "apps"
+      path: "addons"
     values:
-      layout: apps
+      layout: addons
+  - scope:
+      path: "themes"
+    values:
+      layout: themes
   - scope:
       path: "docs"
     values:

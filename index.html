@@ -16,12 +16,23 @@ layout: default
       </div>
     </div>
 
-    {% for apps_list in site.data.apps limit:6 %}
+    {% for themes_list in site.data.themes limit:3 %}
     <div class="row">
-      <div class="col-12">{{ apps_list[0] }}</div>
-      {% for item in apps_list[1] %}
+      <div class="col-12">{{ themes_list[0] }}</div>
+      {% for theme_item in themes_list[1] %}
       <div class="col-4">
-        <a href="{{ item.slug }}">{{ item.title }}</a>
+        <a href="{{ item.slug }}">{{ theme_item.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+    {% for addons_list in site.data.addons limit:6 %}
+    <div class="row">
+      <div class="col-12">{{ addons_list[0] }}</div>
+      {% for addon_item in addons_list[1] %}
+      <div class="col-4">
+        <a href="{{ item.slug }}">{{ addon_item.title }}</a>
       </div>
       {% endfor %}
     </div>
