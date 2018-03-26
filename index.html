@@ -25,13 +25,13 @@ layout: default
           {% if theme_item.url %}
             {% assign link = theme_item %}
           {% else %}
-        {% for doc in site.pages %}
-          {% if doc.path == theme_item %}
-            {% assign link = doc %}
-            {% break %}
+            {% for doc in site.pages %}
+              {% if doc.path == theme_item %}
+                {% assign link = doc %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
           {% endif %}
-        {% endfor %}
-      {% endif %}
       <div class="col-4">
         <a href="{{ link.url }}">{{ link.title }}</a>
       </div>
@@ -43,6 +43,16 @@ layout: default
     <div class="row">
       <div class="col-12">{{ addons_list[0] }}</div>
       {% for addon_item in addons_list[1] %}
+        {% if theme_item.url %}
+          {% assign link = theme_item %}
+        {% else %}
+          {% for doc in site.pages %}
+            {% if doc.path == theme_item %}
+              {% assign link = doc %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
       <div class="col-4">
         <a href="{{ addon_item.slug }}">{{ addon_item.title }}</a>
       </div>
