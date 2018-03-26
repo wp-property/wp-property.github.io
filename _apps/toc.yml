@@ -1,2 +1,3 @@
-- apps/ci-reporter.md
-- apps/commitlint.md
+Apps:
+  - apps/ci-reporter.md
+  - apps/commitlint.md
