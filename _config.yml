@@ -22,10 +22,9 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: apps
+      path: "apps"
     values:
-      layout: app
+      layout: apps
   - scope:
       path: "docs"
     values:
