@@ -7,21 +7,33 @@ layout: default
     <h1 class="page-title">WP Property</h1>
 
     <div class="row">
-      <div class="col-4">
+      <div class="col"></div>
+      <div class="col-2">
         <img src="{{ site.logo_image }}" alt="{{ site.title }}"/>
       </div>
-      <div class="col-8">
+      <div class="col-6">
         <h3>WP-Property is the leading WordPress plugin for creating and managing highly customizable real estate,
           property management, and completely custom listing showcase websites.</h3>
       </div>
+      <div class="col"></div>
     </div>
 
     {% for themes_list in site.data.themes limit:3 %}
     <div class="row">
       <div class="col-12">{{ themes_list[0] }}</div>
-      {% for theme_item in themes_list[1] %}
+        {% for theme_item in themes_list[1] %}
+          {% if item.url %}
+            {% assign link = item %}
+          {% else %}
+        {% for doc in site.pages %}
+          {% if doc.path == item %}
+            {% assign link = doc %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
       <div class="col-4">
-        <a href="{{ theme_item.slug }}">{{ theme_item.title }}</a>
+        <a href="{{ link.url }}">{{ link.title }}</a>
       </div>
       {% endfor %}
     </div>
