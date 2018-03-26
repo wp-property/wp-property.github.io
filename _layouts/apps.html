@@ -6,8 +6,8 @@ layout: default
   <div class="content-body apps-content">
     <h1 class="page-title">Featured Apps</h1>
     {% for app in site.apps.toc %}
-      {% for item in doc[1] %}
-        {% include app.html app=app %}
+      {% for item in app[1] %}
+
       {% endfor %}
     {% endfor %}
   </div>
