@@ -3,13 +3,17 @@ layout: default
 title: Featured Apps
 ---
 
-{% for app in site.data.apps %}
+{% for apps_list in site.data.apps %}
 <h1 class="page-title">{{ page.title }}</h1>
 <div class="row">
-{% for item in app[1] %}
-<div class="col-4">
-  {{ item.title }}
+  <div class="col">{{ apps_list[0] }}</div>
 </div>
-{% endfor %}
+<div class="row">
+  {% for item in apps_list[1] %}
+  <div class="col-4">
+    {{ item.title }}
+    <p>{{ item.description }}</p>
+  </div>
+  {% endfor %}
 </div>
 {% endfor %}
