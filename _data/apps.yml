@@ -1,7 +1,45 @@
-Apps:
-  - title: CI Reporter
-    description: Pastes the error output of a failing build into the relevant PR.
-    url: apps/ci-reporter
-  - title: Commitlint
-    url: apps/commitlint
-    description: Lints all commits of new or edited pull requests and sets an appropriate status check.
+Our themes:
+  - title: Denali
+    slug: denali
+    description: Denali includes instant color scheme customization, expandable custom header with property search, integrated social media icons, automated child theme installation, and endless layout options!
+  - title: Madison
+    slug: madison
+    description: With Madison theme you can upload a custom logo, change this theme to fit your brands colors, switch the layout, add your contact information, social networks and more.
+  - title: Avalon
+    slug: avalon
+    description: Avalon has responsive style layouts so that it can be displayed nicely in any device, desktop or mobile. Customizable sidebars and different widgets to suit every taste. All colors from the site are also customizable to fit your brand’s colors.
+
+Addons:
+  - title: WP-Property: Walk Score
+    slug: walk-score
+    description: Adds Walk Score's and Neighborhood Map's Widgets and Shortcodes to your Site powered by WP-Property plugin. And allows to sort and search your listings by Walk Score.
+  - title: WP-Property: Agents
+    slug: agents
+    description: Allows to create new Real Estate agent accounts, associate them with properties, filter properties by agent and more.
+  - title: WP-Property: Facebook Tabs
+    slug: facebook-tabs
+    description: The Add-on allows you to add a tab with property listings or any other content from your website, on a Facebook Page.
+  - title: WP-Property: FEPS
+    slug: feps
+    description: Allows to create front-end forms that facilitate a simple way for website visitors to submit, edit and delete listings from frontend. Listings can be submitted for free or you can use Sponsored Listings option via WP-Invoice add-on.
+  - title: WP-Property: Importer
+    slug: importer
+    description: The XMLI Importer enables you to automatically import property listings directly into your website. This includes MLS, RETS, XML, CSV formats. Properties are created, merged, removed, or updated according to rules you specify.
+  - title: WP-Property: PDF Flyer
+    slug: pdf-flyer
+    description: Allows the website owner to quickly generate PDF flyers, or brochures, ready for printing or download.
+  - title: WP-Property: Power Tools
+    slug: power-tools
+    description: Extra functionality which includes capability management, white labeling the control panel, and changes menu titles.
+  - title: WP-Property: Responsive Slideshow
+    slug: responsive-slideshow
+    description: Allows you to insert a responsive slideshow into any property page with lightbox option
+  - title: WP-Property: Slideshow
+    slug: slideshow
+    description: Allows you to insert a slideshow into any property page, home page, or virtually anywhere in your blog.
+  - title: WP-Property: Super Map
+    slug: super-map
+    description: Lets you put a large interactive map virtually anywhere in your WordPress setup. The map lets your visitors quickly view the location of all your properties, and filter them down by attributes.
+  - title: WP-Property: Terms
+    slug: terms
+    description: Create any number of additional taxonomies and categorize your listings into search-friendly terms.

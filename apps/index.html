@@ -8,7 +8,7 @@ title: Featured Apps
 <div class="col-12">{{ apps_list[0] }}</div>
   {% for item in apps_list[1] %}
     <div class="col-4">
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      <a href="{{ item.slug }}">{{ item.title }}</a>
     </div>
   {% endfor %}
 {% endfor %}

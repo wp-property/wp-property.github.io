@@ -4,16 +4,27 @@ layout: default
 
 <div class="col-12">
   <div class="content-body frontpage-content">
-    <h1 class="page-title">Front page</h1>
+    <h1 class="page-title">WP Property</h1>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="{{ site.logo_image }}" alt="{{ site.title }}"/>
+      </div>
+      <div class="col-8">
+        <h3>WP-Property is the leading WordPress plugin for creating and managing highly customizable real estate,
+          property management, and completely custom listing showcase websites.</h3>
+      </div>
+    </div>
 
     {% for apps_list in site.data.apps %}
-    <h1 class="page-title">{{ page.title }}</h1>
-    <div class="col-12">{{ apps_list[0] }}</div>
+    <div class="row">
+      <div class="col-12">{{ apps_list[0] }}</div>
       {% for item in apps_list[1] %}
       <div class="col-4">
         <a href="{{ item.url }}">{{ item.title }}</a>
       </div>
       {% endfor %}
+    </div>
     {% endfor %}
   </div>
 </div>
