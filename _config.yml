@@ -5,6 +5,7 @@ logo_image: https://storage.googleapis.com/media.usabilitydynamics.com/2014/11/2
 exclude:
   - node_modules
   - package.json
+  - .idea
 
 sass:
   style: :compressed
