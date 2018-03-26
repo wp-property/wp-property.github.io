@@ -7,7 +7,7 @@ layout: default
     <h1 class="page-title">Front page</h1>
 
 
-    {% for app in site.apps.toc %}
+    {% for app in site.data.apps %}
     <h1 class="page-title">{% app[0] %}</h1>
     {% for item in app[1] %}
     <div class="col-4">
