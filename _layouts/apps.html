@@ -6,8 +6,9 @@ layout: default
 <div class="col-8">
   <div class="content-body apps-content">
     <h1 class="page-title">Featured Apps</h1>
-    {% for doc in site.data.toc %}
-    <h2>{{ doc[0] }}</h2>
+    {% for item in site.data.apps %}
+    <h2>{{ item[0] }}</h2>
+    {{ content }}
     {% endfor %}
   </div>
 </div>
