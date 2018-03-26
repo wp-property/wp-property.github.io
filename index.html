@@ -9,6 +9,7 @@ layout: default
 
     <h1 class="page-title">Apps</h1>
     {% for app in site.data.toc %}
+    {% console.log(app) %}
     <div class="col-4">
       <a href="{{ app.url }}">
         <h3 class="h4 px-3 pt-3">{{ app.title }}</h3>
