@@ -1,5 +1,6 @@
 ---
 title: "Avalon Installation"
+sidebar_title: "Installation"
 slug: installation
 ---
 

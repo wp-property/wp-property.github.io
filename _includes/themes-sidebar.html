@@ -1,19 +1,19 @@
 <aside class="sidebar">
   {% for themes_list in site.data.apps.avalon %}
-  <ul>
-    {% for theme_item in themes_list[1] %}
-    {% if theme_item.url %}
-    {% assign link = theme_item %}
-    {% else %}
-    {% for doc in site.pages %}
-    {% if doc.path == theme_item %}
-    {% assign link = doc %}
-    {% break %}
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    <li><a href="{{ link.url }}" alt="{{ link.title }}">{{ link.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <ul>
+      {% for theme_item in themes_list[1] %}
+        {% if theme_item.url %}
+          {% assign link = theme_item %}
+        {% else %}
+          {% for doc in site.pages %}
+            {% if doc.path == theme_item %}
+              {% assign link = doc %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        <li><a href="{{ link.url }}" alt="{{ link.sidebar_title }}">{{ link.sidebar_title }}</a></li>
+      {% endfor %}
+    </ul>
   {% endfor %}
 </aside>

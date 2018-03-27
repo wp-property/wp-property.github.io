@@ -1,5 +1,6 @@
 ---
-title: Translating Avalon
+title: "Translating Avalon"
+sidebar_title: "Translating"
 slug: translating
 ---
 
