@@ -21,7 +21,10 @@ layout: default
         {% for themes_list in site.data.themes %}
 
         <div class="row">
-          <div class="col-12"><h2 class="products-section-title">{{ themes_list[0] }}</h2></div>
+          <div class="col-12">
+            <h2 class="products-section-title">{{ themes_list[0] }}</h2>
+            <h3 class="products-section-description">We create some themes which fully compatible with our plugins and addons</h3>
+          </div>
         </div>
         <div class="row">
           {% for theme_item in themes_list[1] limit:3 %}
