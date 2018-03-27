@@ -1,0 +1,31 @@
+<aside class="sidebar">
+
+  {% for folder in site.data.themes %}
+
+  <ul>
+    {% for item in folder %}
+    <li>
+      {% if item.url %}
+        {% assign link = item %}
+      {% else %}
+        {% for doc in site.pages %}
+          {% if doc.path == item %}
+            {% assign link = doc %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% if page.url == link.url %}
+        {% assign classes = "active" %}
+      {% else %}
+        {% assign classes = "" %}
+      {% endif %}
+
+      <a class="{{classes}}" href="{{ link.url }}">{{ link.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+
+</aside>
