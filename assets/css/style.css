@@ -182,7 +182,7 @@ header.header nav a {
 }
 
 .product-item .product-content {
-  padding: 1em 1.5em 4em;
+  padding: 1em 1.5em 6em;
   border: 1px #e1e4e8 solid;
   position: relative;
   height: inherit;
@@ -195,6 +195,9 @@ header.header nav a {
 .product-item .product-content .product-image img {
   max-width: 100%;
   height: auto;
+  width: 150px;
+  display: block;
+  margin: 0 auto 1.5em;
 }
 
 .product-item .product-content .product-title {
@@ -207,7 +210,10 @@ header.header nav a {
 
 .product-item .product-content .product-more {
   position: absolute;
-  bottom: 0;
+  bottom: 2em;
+  width: 100%;
+  text-align: center;
+  left: 0;
 }
 
 .product-item .product-content .product-more a {
