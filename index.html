@@ -19,11 +19,14 @@ layout: default
     </div>
 
     <div class="row">
-      <div class="col-10 offset-1">
+      <div class="col-10 offset-1 products-section">
 
         {% for themes_list in site.data.themes %}
+
         <div class="row">
           <div class="col-12"><h2 class="products-section-title">{{ themes_list[0] }}</h2></div>
+        </div>
+        <div class="row">
           {% for theme_item in themes_list[1] limit:3 %}
             {% if theme_item.url %}
               {% assign link = theme_item %}
@@ -44,16 +47,27 @@ layout: default
               </div>
               <h3 class="product-title">{{ link.title }}</h3>
               <div class="product-description">{{ link.description }}</div>
-              <a class="product-more" href="{{ link.url }}">Read more</a>
+              <div class="product-more">
+                <a href="{{ link.url }}">Read more</a>
+              </div>
             </div>
           </div>
           {% endfor %}
         </div>
         {% endfor %}
 
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-10 offset-1 products-section">
+
         {% for addons_list in site.data.addons %}
+
         <div class="row">
           <div class="col-12"><h2 class="products-section-title">{{ addons_list[0] }}</h2></div>
+        </div>
+        <div class="row">
           {% for addon_item in addons_list[1] limit:6 %}
             {% if theme_item.url %}
               {% assign link = addon_item %}
@@ -74,7 +88,9 @@ layout: default
                 </div>
                 <h3 class="product-title">{{ link.title }}</h3>
                 <div class="product-description">{{ link.description }}</div>
-                <a class="product-more" href="{{ link.url }}">Read more</a>
+                <div class="product-more">
+                  <a href="{{ link.url }}">Read more</a>
+                </div>
               </div>
             </div>
           {% endfor %}
