@@ -1,6 +1,6 @@
 ---
 title: Translating Avalon
-slug: avalon/translating
+slug: translating
 ---
 
 ####Here are the instructions for translating a theme:

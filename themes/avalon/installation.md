@@ -1,6 +1,6 @@
 ---
 title: "Avalon Installation"
-slug: avalon/installation
+slug: installation
 ---
 
 After you have downloaded a theme, visit your UD Account. You will find download links for products. Download them to your computer and Upload as new theme on your site. See screenshots below.

@@ -1,0 +1,35 @@
+---
+layout: default
+title: Avalon
+---
+<div class="col-12">
+  <h1 class="page-title">{{ page.title }}</h1>
+</div>
+<div class="col-12">
+    <div class="row">
+      <div class="col-3">
+        <aside class="sidebar">
+          {% for docs in site.data.apps.avalon %}
+            <ul>
+            {% for item in docs %}
+              {% if theme_item.url %}
+                {% assign link = item %}
+              {% else %}
+                {% for doc in site.pages %}
+                  {% if doc.path == item %}
+                    {% assign link = doc %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+              <li><a href="{{ link.url }}" alt="{{ link.title }}">{{ link.title }}</a></li>
+            {% endfor %}
+            </ul>
+          {% endfor %}
+        </aside>
+      </div>
+    <div class="col-9">
+      {{ content }}
+    </div>
+  </div>
+</div>
