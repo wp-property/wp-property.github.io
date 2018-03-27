@@ -256,6 +256,10 @@ header.header nav a {
   background-color: #232c3b;
 }
 
+.products-section .more-button-col {
+  text-align: center;
+}
+
 /* Product card */
 
 /* Container */
