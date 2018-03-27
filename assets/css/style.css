@@ -231,7 +231,8 @@ header.header nav a {
   left: 0;
 }
 
-.product-item .product-content .product-more a {
+.product-item .product-content .product-more a,
+.products-section a.more-addons-button {
   text-align: center;
   text-transform: uppercase;
   padding: 0.8em 1.2em;
@@ -240,6 +241,7 @@ header.header nav a {
   border: 1px solid #232c3b;
   font-size: 0.9em;
   line-height: 2;
+  text-decoration: none;
   height: auto;
   transition: all 0.15s ease-in-out 0s;
   -o-transition: all 0.15s ease-in-out 0s;
@@ -247,7 +249,8 @@ header.header nav a {
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
 
-.product-item .product-content .product-more a:hover {
+.product-item .product-content .product-more a:hover,
+.products-section a.more-addons-button:hover {
   color: #fff !important;
   border-color: #232c3b;
   background-color: #232c3b;

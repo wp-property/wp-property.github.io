@@ -4,8 +4,9 @@ title: Themes
 ---
 
 {% for themes_list in site.data.themes %}
-<h1 class="page-title">{{ page.title }}</h1>
-<div class="col-12">{{ themes_list[0] }}</div>
+  <div class="col-12">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
   {% for theme_item in themes_list[1] %}
     {% if theme_item.url %}
       {% assign link = theme_item %}

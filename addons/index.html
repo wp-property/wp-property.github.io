@@ -4,8 +4,9 @@ title: Addons
 ---
 
 {% for addons_list in site.data.addons %}
-<h1 class="page-title">{{ page.title }}</h1>
-<div class="col-12">{{ addons_list[0] }}</div>
+  <div class="col-12">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
   {% for addon_item in addons_list[1] %}
     {% if theme_item.url %}
       {% assign link = addon_item %}
