@@ -9,19 +9,19 @@ title: Avalon
     <div class="row">
       <div class="col-3">
         <aside class="sidebar">
-          {% for pages_list in site.data.apps.avalon %}
+          {% for themes_list in site.data.apps.avalon %}
             <ul>
-            {% for item in pages_list[1] %}
-              {% if item.url %}
-                {% assign link = item %}
-              {% else %}
-                {% for doc in site.pages %}
-                  {% if doc.path == item %}
-                    {% assign link = doc %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
+              {% for theme_item in themes_list[1] %}
+                {% if theme_item.url %}
+                  {% assign link = theme_item %}
+                {% else %}
+                  {% for doc in site.pages %}
+                    {% if doc.path == theme_item %}
+                      {% assign link = doc %}
+                      {% break %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
               <li><a href="{{ link.url }}" alt="{{ link.title }}">{{ link.title }}</a></li>
             {% endfor %}
             </ul>
