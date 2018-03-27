@@ -65,7 +65,10 @@ layout: default
         {% for addons_list in site.data.addons %}
 
         <div class="row">
-          <div class="col-12"><h2 class="products-section-title">{{ addons_list[0] }}</h2></div>
+          <div class="col-12">
+            <h2 class="products-section-title">{{ addons_list[0] }}</h2>
+            <h3 class="products-section-description"></h3>
+          </div>
         </div>
         <div class="row">
           {% for addon_item in addons_list[1] limit:6 %}
