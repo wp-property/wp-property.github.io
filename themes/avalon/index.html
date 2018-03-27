@@ -9,9 +9,9 @@ title: Avalon
     <div class="row">
       <div class="col-3">
         <aside class="sidebar">
-          {% for docs in site.data.apps.avalon %}
+          {% for pages_list in site.data.apps.avalon %}
             <ul>
-            {% for item in docs %}
+            {% for item in pages_list[1] %}
               {% if theme_item.url %}
                 {% assign link = item %}
               {% else %}
