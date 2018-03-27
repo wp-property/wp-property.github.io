@@ -17,8 +17,19 @@ title: Addons
         {% endif %}
       {% endfor %}
     {% endif %}
-    <div class="col-4">
-      <a href="{{ link.url }}">{{ link.title }}</a>
+    <div class="col-4 product-item">
+      <div class="card h-100 product-content">
+        <div class="product-image">
+          <a href="{{ link.url }}" alt="{{ link.title }}">
+            <img src="{{ link.image }}" alt="{{ link.title }}" />
+          </a>
+        </div>
+        <h3 class="product-title">{{ link.title }}</h3>
+        <div class="product-description">{{ link.description }}</div>
+        <div class="product-more">
+          <a href="{{ link.url }}">Read more</a>
+        </div>
+      </div>
     </div>
   {% endfor %}
 {% endfor %}
