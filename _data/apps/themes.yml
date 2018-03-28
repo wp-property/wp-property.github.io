@@ -8,6 +8,25 @@ denali:
     - themes/denali/index.md
     - themes/denali/installation.md
     - themes/denali/translating.md
+  Get Started:
+    - themes/denali/setup-assistant.md
+    - themes/denali/setting-up-denali-child-theme.md
+    - themes/denali/widgets-areas-in-denali-theme.md
+    - themes/denali/menu-ui-in-denali-theme.md
+  Theme Options:
+    - themes/denali/denali-theme-settings-general-tab.md
+    - themes/denali/denali-theme-settings-header-tab.md
+    - themes/denali/denali-theme-settings-footer-tab.md
+    - themes/denali/denali-theme-settings-property-overview-tab.md
+    - themes/denali/denali-theme-settings-inquiry-tab.md
+    - themes/denali/denali-theme-settings-help-tab.md
+  FAQ:
+    - themes/denali/why-am-i-not-seeing-updates-in-denali-theme.md
+    - themes/denali/how-do-i-get-rid-of-the-default-header-in-denali-theme.md
+    - themes/denali/i-am-not-receiving-any-messages-from-the-form-in-the-contact-us-dropdown.md
+    - themes/denali/why-are-my-menu-links-are-overlaying-the-slideshow-in-denali-theme.md
+    - themes/denali/why-can-not-i-see-second-level-menu-subpages-in-denali-theme.md
+    - themes/denali/how-to-set-header-image-in-denali-theme.md
 madison:
   Intro:
     - themes/madison/index.md
