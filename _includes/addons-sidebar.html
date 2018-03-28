@@ -4,33 +4,36 @@
     <img src="{{ page.image }}" alt="{{ page.title }}"/>
   </div>
 
-  {% assign repo = page.module_slug %}
-  {% for themes_list in site.data.apps.repo %}
+  {% for addons_list in site.data.apps.addons %}
 
-    <h2>{{ themes_list[0] }}</h2>
-
-    <ul>
-      {% for theme_item in themes_list[1] %}
-        {% if theme_item.url %}
-          {% assign link = theme_item %}
-        {% else %}
-          {% for doc in site.pages %}
-            {% if doc.path == theme_item %}
-              {% assign link = doc %}
-              {% break %}
+    {% if page.module_slug == addons_list[0] %}
+      {% for pages_list in addons_list[1] %}
+        <h2>{{ pages_list[0] }}</h2>
+        <ul>
+          {% for addon_item in pages_list[1] %}
+            {% if addon_item.url %}
+              {% assign link = addon_item %}
+            {% else %}
+              {% for doc in site.pages %}
+                {% if doc.path == addon_item %}
+                  {% assign link = doc %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
             {% endif %}
+
+            {% if page.url == link.url %}
+              {% assign classes = "active" %}
+            {% else %}
+              {% assign classes = "" %}
+            {% endif %}
+
+            <li><a  class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
           {% endfor %}
-        {% endif %}
-
-        {% if page.url == link.url %}
-          {% assign classes = "active" %}
-        {% else %}
-          {% assign classes = "" %}
-        {% endif %}
-
-        <li><a  class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
+        </ul>
       {% endfor %}
-    </ul>
+    {% endif %}
+
   {% endfor %}
 
   <div class="product-data">

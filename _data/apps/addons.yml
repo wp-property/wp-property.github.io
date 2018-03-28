@@ -1,0 +1,33 @@
+walk-score:
+  Intro:
+    - addons/walk-score/index.md
+agents:
+  Intro:
+    - addons/agents/index.md
+facebook-tabs:
+  Intro:
+    - addons/facebook-tabs/index.md
+feps:
+  Intro:
+    - addons/feps/index.md
+importer:
+  Intro:
+    - addons/importer/index.md
+pdf-flyer:
+  Intro:
+    - addons/pdf-flyer/index.md
+power-tools:
+  Intro:
+    - addons/power-tools/index.md
+responsive-slideshow:
+  Intro:
+    - addons/responsive-slideshow/index.md
+slideshow:
+  Intro:
+    - addons/slideshow/index.md
+super-map:
+  Intro:
+    - addons/super-map/index.md
+terms:
+  Intro:
+    - addons/terms/index.md

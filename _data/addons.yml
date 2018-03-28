@@ -1,12 +1,12 @@
 WP-Property Addons:
-  - addons/walk-score.md
-  - addons/agents.md
-  - addons/facebook-tabs.md
-  - addons/feps.md
-  - addons/importer.md
-  - addons/pdf-flyer.md
-  - addons/power-tools.md
-  - addons/responsive-slideshow.md
-  - addons/slideshow.md
-  - addons/super-map.md
-  - addons/terms.md
+  - addons/walk-score/index.md
+  - addons/agents/index.md
+  - addons/facebook-tabs/index.md
+  - addons/feps/index.md
+  - addons/importer/index.md
+  - addons/pdf-flyer/index.md
+  - addons/power-tools/index.md
+  - addons/responsive-slideshow/index.md
+  - addons/slideshow/index.md
+  - addons/super-map/index.md
+  - addons/terms/index.md
