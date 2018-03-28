@@ -23,7 +23,7 @@ feps:
     - addons/feps/index.md
     - addons/feps/installation.md
     - addons/feps/translating.md
-    Get Started:
+  Get Started:
     - addons/feps/form-settings-in-wp-property-feps.md
     - addons/feps/set-up-specific-pages-in-wp-property-feps.md
     - addons/feps/administration-in-wp-property-feps.md
@@ -32,7 +32,7 @@ feps:
     - addons/feps/wp-property-feps-integration-with-wp-invoice.md
     - addons/feps/wp-property-feps-integration-with-wp-crm.md
     - addons/feps/advanced-usage-of-wp-property-feps.md
-    FAQ:
+  FAQ:
     - addons/feps/short-faqs-for-wp-property-feps.md
     - addons/feps/what-kind-of-emails-are-sent-to-the-property-submitters-in-wp-property-feps.md
     - addons/feps/does-the-administrator-get-an-email-when-a-new-property-is-submitted-in-wp-property-feps.md
