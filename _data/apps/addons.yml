@@ -93,6 +93,10 @@ power-tools:
 responsive-slideshow:
   Intro:
     - addons/responsive-slideshow/index.md
+    - addons/responsive-slideshow/overview.md
+    - addons/responsive-slideshow/shortcodes.md
+    - addons/responsive-slideshow/installation.md
+    - addons/responsive-slideshow/translating.md
 slideshow:
   Intro:
     - addons/slideshow/index.md
