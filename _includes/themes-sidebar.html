@@ -4,7 +4,8 @@
     <img src="{{ page.image }}" alt="{{ page.title }}"/>
   </div>
 
-  {% for themes_list in site.data.apps.avalon %}
+  {% assign repo = page.module_slug %}
+  {% for themes_list in site.data.apps.repo %}
 
     <h2>{{ themes_list[0] }}</h2>
 
@@ -33,7 +34,7 @@
   {% endfor %}
 
   <div class="product-data">
-    <a href="{{ page.repo_url }}" class="get-repo-button">Go to {{ page.title }} repository</a>
+    <a href="{{ page.repo_url }}" class="get-repo-button">Go to {{ page.module }} repository</a>
   </div>
 
 </aside>
