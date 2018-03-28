@@ -1,12 +1,23 @@
 walk-score:
   Intro:
     - addons/walk-score/index.md
+    - addons/walk-score/installation.md
+    - addons/walk-score/translating.md
+  Get Started:
+    - addons/walk-score/getting-started-with-wp-property-walkscore.md
 agents:
   Intro:
     - addons/agents/index.md
+    - addons/agents/installation.md
+    - addons/agents/translating.md
 facebook-tabs:
   Intro:
     - addons/facebook-tabs/index.md
+    - addons/facebook-tabs/installation.md
+    - addons/facebook-tabs/translating.md
+  Documentation:
+    - addons/facebook-tabs/getting-started-with-wp-property-facebook-tabs.md
+    - addons/facebook-tabs/setting-up-the-facebook-tabs.md
 feps:
   Intro:
     - addons/feps/index.md
