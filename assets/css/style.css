@@ -66,6 +66,9 @@ header.header nav a {
 
 .sidebar .logo-box img {
   max-width: 100%;
+  width: 150px;
+  margin: 0 auto;
+  display: block;
 }
 
 .sidebar ul {

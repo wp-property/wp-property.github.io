@@ -2,6 +2,7 @@
 title: "Translating Avalon"
 sidebar_title: "Translating"
 slug: translating
+image: //storage.googleapis.com/media.usabilitydynamics.com/2016/07/4-300x300.png
 ---
 
 ####Here are the instructions for translating a theme:

@@ -5,6 +5,9 @@
   </div>
 
   {% for themes_list in site.data.apps.avalon %}
+
+    <h2>{{ themes_list[0] }}</h2>
+
     <ul>
       {% for theme_item in themes_list[1] %}
         {% if theme_item.url %}
@@ -17,7 +20,14 @@
             {% endif %}
           {% endfor %}
         {% endif %}
-        <li><a href="{{ link.url }}" alt="{{ link.sidebar_title }}">{{ link.sidebar_title }}</a></li>
+
+        {% if page.url == link.url %}
+          {% assign classes = "active" %}
+        {% else %}
+          {% assign classes = "" %}
+        {% endif %}
+
+        <li><a  class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
       {% endfor %}
     </ul>
   {% endfor %}
