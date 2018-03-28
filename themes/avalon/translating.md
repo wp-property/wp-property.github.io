@@ -4,6 +4,8 @@ sidebar_title: "Translating"
 slug: translating
 image: //storage.googleapis.com/media.usabilitydynamics.com/2016/07/4-300x300.png
 repo_url: https://github.com/wp-property/wp-avalon
+module: "Avalon"
+module_slug: avalon
 ---
 
 ####Here are the instructions for translating a theme:

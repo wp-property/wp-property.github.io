@@ -4,6 +4,8 @@ sidebar_title: "Installation"
 slug: installation
 image: //storage.googleapis.com/media.usabilitydynamics.com/2016/07/4-300x300.png
 repo_url: https://github.com/wp-property/wp-avalon
+module: "Avalon"
+module_slug: avalon
 ---
 
 After you have downloaded a theme, visit your UD Account. You will find download links for products. Download them to your computer and Upload as new theme on your site. See screenshots below.
