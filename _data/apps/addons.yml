@@ -86,6 +86,10 @@ pdf-flyer:
 power-tools:
   Intro:
     - addons/power-tools/index.md
+    - addons/power-tools/overview.md
+    - addons/power-tools/capabilities-description.md
+    - addons/power-tools/installation.md
+    - addons/power-tools/translating.md
 responsive-slideshow:
   Intro:
     - addons/responsive-slideshow/index.md
