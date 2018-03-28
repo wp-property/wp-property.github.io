@@ -2,3 +2,7 @@ avalon:
   - themes/avalon/index.md
   - themes/avalon/installation.md
   - themes/avalon/translating.md
+denali:
+  - themes/denali/index.md
+madison:
+  - themes/madison/index.md
