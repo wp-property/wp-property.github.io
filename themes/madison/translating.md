@@ -1,5 +1,5 @@
 ---
-title: "Translating Denali theme"
+title: "Translating Madison theme"
 slug: madison/translating
 sidebar_title: "Translating"
 image: //storage.googleapis.com/media.usabilitydynamics.com/2014/10/fecdb66f-wpproperty-theme-madison-icon-300x300.png
