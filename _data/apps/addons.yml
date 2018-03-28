@@ -75,6 +75,14 @@ importer:
 pdf-flyer:
   Intro:
     - addons/pdf-flyer/index.md
+    - addons/pdf-flyer/installation.md
+    - addons/pdf-flyer/translating.md
+  Documentation:
+    - addons/pdf-flyer/getting-started-with-wp-property-pdf.md
+    - addons/pdf-flyer/shortcodes.md
+    - addons/pdf-flyer/samples.md
+  FAQ:
+    - addons/pdf-flyer/could-not-regenerate-pdf-flyer-for-property.md
 power-tools:
   Intro:
     - addons/power-tools/index.md
