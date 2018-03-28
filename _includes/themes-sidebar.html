@@ -1,4 +1,9 @@
 <aside class="sidebar">
+
+  <div class="logo-box">
+    <img src="{{ page.image }}" alt="{{ page.title }}"/>
+  </div>
+
   {% for themes_list in site.data.apps.avalon %}
     <ul>
       {% for theme_item in themes_list[1] %}
@@ -16,4 +21,13 @@
       {% endfor %}
     </ul>
   {% endfor %}
+
+  <div class="product-data">
+    <a class="github-button" href="https://github.com/wp-property/wp-avalon" data-size="large" data-icon="octicon-star" data-show-count="true" aria-label="Star wp-avalon on GitHub"
+       ga-on="click"
+       ga-hit-type="social"
+       ga-social-network="GitHub"
+       ga-social-action="star">Star</a>
+  </div>
+
 </aside>
