@@ -30,3 +30,11 @@ denali:
 madison:
   Intro:
     - themes/madison/index.md
+    - themes/madison/installation.md
+    - themes/madison/translating.md
+  FAQ:
+    - themes/madison/why-am-i-not-seeing-updates-in-madison-theme.md
+    - themes/madison/how-to-set-up-home-page-with-full-width-supermap-in-madison-theme.md
+    - themes/madison/what-is-best-size-for-logo-in-madison-theme.md
+    - themes/madison/how-to-add-header-search-in-madison-theme.md
+    - themes/madison/how-to-add-property-search-or-some-other-widget-shortcode-in-madison-theme.md
