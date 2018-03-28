@@ -7,11 +7,10 @@
   {% for themes_list in site.data.apps.themes %}
 
     {% if page.module_slug == themes_list[0] %}
-
-    <h2>Pages</h2>
-
+    {% for pages_list in themes_list[1] %}
+      <h2>{{ pages_list[0] }}</h2>
       <ul>
-        {% for theme_item in themes_list[1] %}
+        {% for theme_item in pages_list[1] %}
           {% if theme_item.url %}
             {% assign link = theme_item %}
           {% else %}
@@ -32,6 +31,7 @@
           <li><a  class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
         {% endfor %}
       </ul>
+      {% endfor %}
     {% endif %}
   {% endfor %}
 

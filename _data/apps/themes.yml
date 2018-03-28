@@ -1,8 +1,13 @@
 avalon:
-  - themes/avalon/index.md
-  - themes/avalon/installation.md
-  - themes/avalon/translating.md
+  Intro:
+    - themes/avalon/index.md
+    - themes/avalon/installation.md
+    - themes/avalon/translating.md
 denali:
-  - themes/denali/index.md
+  Intro:
+    - themes/denali/index.md
+    - themes/denali/installation.md
+    - themes/denali/translating.md
 madison:
-  - themes/madison/index.md
+  Intro:
+    - themes/madison/index.md
