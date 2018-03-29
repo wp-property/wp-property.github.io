@@ -26,7 +26,7 @@ module Jekyll_Get
           end
           if d['cache']
             data_source = (site.config['data_source'] || '_data')
-            path = "#{data_source}/#{d['data']}.json"
+            path = "#{data_source}/#{d['data']}"
             open(path, 'wb') do |file|
               file << JSON.generate(site.data[d['data']])
             end
