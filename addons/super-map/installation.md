@@ -1,6 +1,6 @@
 ---
 title: "WP Property Super Map Installation"
-sidebar_title: "WP Property Super Map Installation"
+sidebar_title: "Installation"
 slug: super-map/installation
 image: //storage.googleapis.com/media.usabilitydynamics.com/2014/10/25206560-wpproperty-extension-super_map-icon-300x300.png
 repo_url: https://github.com/wp-property/wp-property-supermap
