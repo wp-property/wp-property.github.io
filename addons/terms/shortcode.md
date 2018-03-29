@@ -10,12 +10,6 @@ module_slug: terms
 
 Cheat Sheet for [property_terms] Shortcode
 
-</div>
-
-</div>
-
-</div>
-
 <div data-index="8" id="panel-195281-3-0-1" class="so-panel widget widget_sow-editor panel-last-child">
 
 <div class="so-widget-sow-editor so-widget-sow-editor-base">
