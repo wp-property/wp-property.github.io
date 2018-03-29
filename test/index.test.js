@@ -1,13 +1,10 @@
-const octokit = require('@octokit/rest')()
+// You can import your modules
+// const index = require('../index')
 
-function getRepo(org, repo) {
+test('that we can run tests', () => {
+  // your real tests go here
+  expect(1 + 2 + 3).toBe(6)
+})
 
-  octokit.repos.getForOrg({
-    org: org,
-    type: 'public'
-  }).then(({data}) = > {
-    console.log(data);
-  }
-)
-
-}
+// For more information about testing with Jest see:
+// https://facebook.github.io/jest/

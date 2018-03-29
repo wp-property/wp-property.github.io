@@ -39,8 +39,8 @@
     <a href="{{ page.repo_url }}" class="get-repo-button">Go to <span>{{ page.module }}</span> repository</a>
   </div>
 
-  <script>
-    getRepo('wp-property');
-  </script>
+  {% for app_name in site.data.avalon %}
+    Hello {{app_name[1].name}}
+  {% endfor %}
 
 </aside>
