@@ -100,6 +100,19 @@ responsive-slideshow:
 slideshow:
   Intro:
     - addons/slideshow/index.md
+    - addons/slideshow/installation.md
+    - addons/slideshow/translating.md
+    - addons/slideshow/property-gallery-size-options-in-wp-property-slideshow.md
+  Shortcodes:
+    - addons/slideshow/property-gallery.md
+    - addons/slideshow/property-slideshow.md
+    - addons/slideshow/global-slideshow.md
+  FAQ:
+    - addons/slideshow/can-i-use-wp-property-slideshow-with-my-theme.md
+    - addons/slideshow/first-steps-to-investigate-any-issue-in-wp-property-slideshow.md
+    - addons/slideshow/licence-key-not-activating-in-wp-property-slideshow.md
+    - addons/slideshow/parse-error-syntax-error-in-wp-property-slideshow.md
+    - addons/slideshow/could-not-do-a-request-to-udx_io.md
 super-map:
   Intro:
     - addons/super-map/index.md
