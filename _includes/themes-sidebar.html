@@ -6,41 +6,40 @@
 
   {% for themes_list in site.data.apps.themes %}
 
-    {% if page.module_slug == themes_list[0] %}
-    {% for pages_list in themes_list[1] %}
-      <h2>{{ pages_list[0] }}</h2>
-      <ul>
-        {% for theme_item in pages_list[1] %}
-          {% if theme_item.url %}
-            {% assign link = theme_item %}
-          {% else %}
-            {% for doc in site.pages %}
-              {% if doc.path == theme_item %}
-                {% assign link = doc %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
-          {% if page.url == link.url %}
-            {% assign classes = "active" %}
-          {% else %}
-            {% assign classes = "" %}
-          {% endif %}
-
-          <li><a  class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
-        {% endfor %}
-      </ul>
-      {% endfor %}
+  {% if page.module_slug == themes_list[0] %}
+  {% for pages_list in themes_list[1] %}
+  <h2>{{ pages_list[0] }}</h2>
+  <ul>
+    {% for theme_item in pages_list[1] %}
+    {% if theme_item.url %}
+    {% assign link = theme_item %}
+    {% else %}
+    {% for doc in site.pages %}
+    {% if doc.path == theme_item %}
+    {% assign link = doc %}
+    {% break %}
     {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {% if page.url == link.url %}
+    {% assign classes = "active" %}
+    {% else %}
+    {% assign classes = "" %}
+    {% endif %}
+
+    <li><a class="{{classes}}" href="{{ link.url }}">{{ link.sidebar_title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+  {% endif %}
   {% endfor %}
 
   <div class="product-data">
     <a href="{{ page.repo_url }}" class="get-repo-button">Go to <span>{{ page.module }}</span> repository</a>
   </div>
 
-  {% for repository in page.repo_url %}
-    <span>* [{{ repository.name }}]({{ repository.html_url }})</span>
-  {% endfor %}
+  {% assign repository = getRepo(page.repo_url) %}
+  <span>{{repository}}</span>
 
 </aside>
