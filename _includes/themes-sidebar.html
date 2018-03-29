@@ -40,7 +40,7 @@
   </div>
 
   {% for repository in page.repo_url %}
-    * [{{ repository.name }}]({{ repository.html_url }})
+    <span>* [{{ repository.name }}]({{ repository.html_url }})</span>
   {% endfor %}
 
 </aside>
