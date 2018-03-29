@@ -116,6 +116,21 @@ slideshow:
 super-map:
   Intro:
     - addons/super-map/index.md
+    - addons/super-map/installation.md
+    - addons/super-map/translating.md
+  Get started:
+    - addons/super-map/shortcode.md
+    - addons/super-map/settings-page.md
+    - addons/super-map/examples.md
+  FAQ:
+    - addons/super-map/required-settings-for-wp-property-super-map.md
+    - addons/super-map/wrong-direction-in-wp-property-super-map.md
 terms:
   Intro:
     - addons/terms/index.md
+    - addons/terms/overview.md
+    - addons/terms/installation.md
+    - addons/terms/translating.md
+  Get started:
+    - addons/terms/search-and-overview-of-properties.md
+    - addons/terms/shortcode.md
