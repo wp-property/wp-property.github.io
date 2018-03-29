@@ -16,7 +16,7 @@ module_slug: feps
 
 * **Can I use this to list vehicles, or other things?** You can use FEPS to list whatever your heart desires - use the Developer tab in WP-Property to create any attribute you want, and customize away.
 
-* **Can I use this feature on multiple domains?** As with all of our premium features, you purchase a dual-domain license, meaning the feature can be used on two domains.  This is intended so you can have a production and a development environment, but in practice we don't care how you use it - can be two production domains.
+* **Can I use this add-on on multiple domains?** As with all of our add-ons, you download a dual-domain license, meaning the feature can be used on two domains.  This is intended so you can have a production and a development environment, but in practice we don't care how you use it - can be two production domains.
 
 * **Is WP-Property needed to use FEPS?** Yes, FEPS is as extension of WP-Property, which must be installed first to use FEPS. WP-Property is free, and can be downloaded from the WordPress repository. 
 
