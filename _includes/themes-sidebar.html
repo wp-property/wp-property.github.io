@@ -39,17 +39,4 @@
     <a href="{{ page.repo_url }}" class="get-repo-button">Go to <span>{{ page.module }}</span> repository</a>
   </div>
 
-  <pre class="prettyprint"><code>module.exports = robot => {
-  // Get an express router to expose new HTTP endpoints
-  const app = robot.route('/my-app');
-
-  // Use any middleware
-  app.use(require('express').static(__dirname + '/public'));
-
-  // Add a new route
-  app.get('/hello-world', (req, res) => {
-    res.end('Hello World');
-  });
-};</code></pre>
-
 </aside>
