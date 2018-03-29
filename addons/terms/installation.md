@@ -65,7 +65,7 @@ Products do not have the limit of usage. License gives you the ability to update
 
 ### Customization
 
-Please also note that we do not support our products if the code was customized directly. After update **you will lose your plugin customization**. If you need to customize some template in our plugin,</span> you will need to copy the template to the root theme/child theme folder and only there customize it.
+Please also note that we do not support our products if the code was customized directly. After update **you will lose your plugin customization**. If you need to customize some template in our plugin, you will need to copy the template to the root theme/child theme folder and only there customize it.
 
 ### Moving licenses
 
