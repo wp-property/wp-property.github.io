@@ -1,10 +1,24 @@
-// You can import your modules
-// const index = require('../index')
+console.log('123');
 
-test('that we can run tests', () => {
-  // your real tests go here
-  expect(1 + 2 + 3).toBe(6)
-})
+const Octokit = require('@octokit/rest')
 
-// For more information about testing with Jest see:
-// https://facebook.github.io/jest/
+function getDataFromApi(options) {
+  const octokit = Octokit(options)
+
+  const res = await
+  octokit.request({
+    method: 'GET',
+    url: 'https://api.github.com/repos/wp-property/wp-avalon'
+  })
+
+  if (res.data.errors) {
+    throw new GraphQLError(res.data.errors, query, variables)
+  }
+
+  octokit.data = res.data.data
+
+
+  return octokit
+}
+
+module.exports = getDataFromApi
