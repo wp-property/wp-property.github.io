@@ -1,5 +1,6 @@
 ---
 title: How to add auto populated field to WP Property search
+sidebar_title: How to add auto populated field to WP Property search
 permalink: /docs/how-to-add-auto-populated-field/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Display Tab
+sidebar_title: Display Tab
 permalink: /docs/display-tab/
 ---
 

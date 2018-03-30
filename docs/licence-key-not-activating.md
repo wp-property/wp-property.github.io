@@ -1,5 +1,6 @@
 ---
-title: Licence-Key-not-activating
+title: Licence Key not activating
+sidebar_title: Licence Key not activating
 permalink: /docs/licence-key-not-activating/
 ---
 

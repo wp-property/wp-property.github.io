@@ -1,5 +1,6 @@
 ---
 title: Main Tab
+sidebar_title: Main Tab
 permalink: /docs/main-tab/
 ---
 

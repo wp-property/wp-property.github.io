@@ -1,5 +1,6 @@
 ---
 title: Customizing Templates in WP Property
+sidebar_title: Customizing Templates
 permalink: /docs/customizing-templates/
 ---
 

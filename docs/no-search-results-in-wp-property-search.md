@@ -1,5 +1,6 @@
 ---
 title: No Search Results in WP Property Search
+sidebar_title: No Search Results in WP Property Search
 permalink: /docs/no-search-results-in-wp-property-search/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: How to investigate any issue in WP Property?
+sidebar_title: How to investigate any issue?
 permalink: /docs/how-to-investigate-any-issue-in-wp-property/
 ---
 

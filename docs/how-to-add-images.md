@@ -1,5 +1,6 @@
 ---
 title: How to add, delete or attach images in WP Property?
+sidebar_title: How to add, delete or attach images?
 permalink: /docs/how-to-add-images/
 ---
 

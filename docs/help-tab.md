@@ -1,5 +1,6 @@
 ---
 title: Help Tab
+sidebar_title: Help Tab
 permalink: /docs/help-tab/
 ---
 

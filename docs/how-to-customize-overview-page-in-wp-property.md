@@ -1,5 +1,6 @@
 ---
 title: How to customize Overview Page in WP Property?
+sidebar_title: How to customize Overview Page?
 permalink: /docs/how-to-customize-overview-page-in-wp-property/
 ---
 

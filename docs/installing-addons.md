@@ -1,5 +1,6 @@
 ---
 title: Installing Add ons
+sidebar_title: Installing Add ons
 permalink: /docs/installing_addons/
 ---
 

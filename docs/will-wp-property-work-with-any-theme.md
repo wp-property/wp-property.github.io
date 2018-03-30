@@ -1,5 +1,6 @@
 ---
 title: Will WP Property work with any theme?
+sidebar_title: Will WP Property work with any theme?
 permalink: /docs/will-wp-property-work-with-any-theme/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Issues With Polylang plug in
+sidebar_title: Issues With Polylang plug in
 permalink: /docs/issues-with-polylang-plug-in/
 ---
 

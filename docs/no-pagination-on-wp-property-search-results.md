@@ -1,5 +1,6 @@
 ---
 title: No pagination on WP Property search results
+sidebar_title: No pagination on WP Property search results
 permalink: /docs/no-pagination-on-wp-property-search-results/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: The content moves to the side in WP Property while using a third party theme
+sidebar_title: The content moves to the side in WP Property while using a third party theme
 permalink: /docs/the-content-moves-to-the-side-in-wp-property-while-using-a-third-party-theme/
 ---
 

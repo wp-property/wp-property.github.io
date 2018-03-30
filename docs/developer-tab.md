@@ -1,5 +1,6 @@
 ---
 title: Developer Tab
+sidebar_title: Developer Tab
 permalink: /docs/developer-tab/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: WP Property Setting Keys
+sidebar_title: WP Property Setting Keys
 permalink: /docs/wp-property-setting-keys/
 ---
 

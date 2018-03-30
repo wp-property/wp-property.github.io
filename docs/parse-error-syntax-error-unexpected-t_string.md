@@ -1,5 +1,6 @@
 ---
 title: Parse error syntax error unexpected T_STRING
+sidebar_title: Parse error syntax error unexpected T_STRING
 permalink: /docs/parse-error-syntax-error-unexpected-t_string/
 ---
 

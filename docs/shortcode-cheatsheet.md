@@ -1,5 +1,6 @@
 ---
 title: Shortcode Cheatsheet
+sidebar_title: Shortcode Cheatsheet
 permalink: /docs/shortcode_cheatsheet/
 ---
 

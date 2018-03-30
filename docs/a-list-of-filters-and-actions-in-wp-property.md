@@ -1,5 +1,6 @@
 ---
 title: A List of Filters and Actions in WP Property
+sidebar_title: A List of Filters and Actions
 permalink: /docs/a-list-of-filters-and-actions-in-wp-property/
 ---
 

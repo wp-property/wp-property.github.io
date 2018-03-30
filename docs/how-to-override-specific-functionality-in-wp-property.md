@@ -1,5 +1,6 @@
 ---
 title: How to override specific functionality in WP Property?
+sidebar_title: How to override specific functionality?
 permalink: /docs/how-to-override-specific-functionality-in-wp-property/
 ---
 

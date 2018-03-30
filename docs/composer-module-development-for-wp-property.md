@@ -1,5 +1,6 @@
 ---
 title: Composer Module Development for WP Property
+sidebar_title: Composer Module Development
 permalink: /docs/composer-module-development-for-wp-property/
 ---
 

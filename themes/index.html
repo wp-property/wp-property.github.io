@@ -4,40 +4,46 @@ title: Themes
 ---
 <div class="col-12">
   <div class="content-body">
-    <div class="row">
 
       {% for themes_list in site.data.themes %}
-        <div class="col-12">
-          <h1 class="page-title">{{ page.title }}</h1>
+
+        <div class="row">
+          <div class="col-12">
+            <h1 class="page-title">{{ page.title }}</h1>
+          </div>
         </div>
-        {% for theme_item in themes_list[1] %}
-          {% if theme_item.url %}
-            {% assign link = theme_item %}
-          {% else %}
-            {% for doc in site.pages %}
-              {% if doc.path == theme_item %}
-                {% assign link = doc %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-          <div class="col-4 product-item">
-            <div class="card h-100 product-content">
-              <div class="product-image">
-                <a href="{{ link.url }}" alt="{{ link.title }}">
-                  <img src="{{ link.image }}" alt="{{ link.title }}" />
-                </a>
-              </div>
-              <h3 class="product-title">{{ link.title }}</h3>
-              <div class="product-description">{{ link.description }}</div>
-              <div class="product-more">
-                <a href="{{ link.url }}">Read more</a>
+
+        <div class="row justify-content-center">
+
+          {% for theme_item in themes_list[1] %}
+            {% if theme_item.url %}
+              {% assign link = theme_item %}
+            {% else %}
+              {% for doc in site.pages %}
+                {% if doc.path == theme_item %}
+                  {% assign link = doc %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            <div class="col-4 product-item">
+              <div class="card h-100 product-content">
+                <div class="product-image">
+                  <a href="{{ link.url }}" alt="{{ link.title }}">
+                    <img src="{{ link.image }}" alt="{{ link.title }}" />
+                  </a>
+                </div>
+                <h3 class="product-title">{{ link.title }}</h3>
+                <div class="product-description">{{ link.description }}</div>
+                <div class="product-more">
+                  <a href="{{ link.url }}">Read more</a>
+                </div>
               </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
+
       {% endfor %}
 
-    </div>
   </div>
 </div>

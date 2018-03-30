@@ -1,5 +1,6 @@
 ---
 title: Editing Accessing WP Property with a non admin user role
+sidebar_title: Editing Accessing WP Property with a non admin user role
 permalink: /docs/accessing-wp-property-with-a-non-admin-user-role/
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Why is the Google Map not displayed in WP Property?
+sidebar_title: Why is the Google Map not displayed?
 permalink: /docs/why-is-the-google-map-not-displayed-in-wp-property/
 ---
 

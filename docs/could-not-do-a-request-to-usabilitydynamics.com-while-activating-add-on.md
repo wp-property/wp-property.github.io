@@ -1,5 +1,6 @@
 ---
 title: Could not do a request to UsabilityDynamics.com while activating add on
+sidebar_title: Could not do a request to UsabilityDynamics.com
 permalink: /docs/could-not-do-a-request-to-usabilitydynamics.com-while-activating-add-on/
 ---
 
