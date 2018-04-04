@@ -355,10 +355,15 @@ footer.footer {
 footer.footer p {
   margin: 0 !important;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 footer.footer p a {
   color: #24292e;
+}
+
+footer.footer p i {
+  font-size: 0.8em;
 }
 
 /* Footer */
