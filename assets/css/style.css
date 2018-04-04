@@ -58,7 +58,6 @@ main.main {
   background-color: #fafbfc;
   border-top: 1px #e1e4e8 solid;
   padding: 3em 0 2em;
-  margin-top: 3.5em;
 }
 
 /* Main */
@@ -67,6 +66,7 @@ main.main {
 .frontpage-top {
   background-color: #FFF;
   margin-bottom: 4em;
+  margin-top: 3.5em;
 }
 
 .frontpage-top .left-side img {
