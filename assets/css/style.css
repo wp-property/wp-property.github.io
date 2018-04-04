@@ -15,7 +15,6 @@ header.header {
   padding: 1em 0;
   margin-bottom: 3.5em;
   color: #FFF;
-  border-bottom: 1px #e1e4e8 solid;
 }
 
 header.header .logotype {
@@ -23,6 +22,10 @@ header.header .logotype {
   margin-bottom: 1em;
   text-decoration: none;
   color: #24292e !important;
+}
+
+body.front-page header.header .logotype {
+  display: none;
 }
 
 header.header .logotype img {
@@ -51,11 +54,19 @@ header.header nav a {
 
 /* Header */
 
+/* Main */
+main.main {
+  background-color: #fafbfc;
+  border-top: 1px #e1e4e8 solid;
+}
+/* Main */
+
 /* Sidebar */
 .sidebar {
   border-right: 1px #e1e4e8 solid;
   height: inherit;
 }
+
 .sidebar h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -116,6 +127,7 @@ header.header nav a {
   -moz-transition: all 0.15s ease-in-out 0s;
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
+
 .sidebar .product-data .get-repo-button span {
   font-weight: 600;
 }
@@ -204,6 +216,7 @@ header.header nav a {
 }
 
 .frontpage-top {
+  background-color: #FFF;
   margin-bottom: 3em;
 }
 
