@@ -58,7 +58,7 @@ header.header nav a {
 main.main {
   background-color: #fafbfc;
   border-top: 1px #e1e4e8 solid;
-  padding: 3em 0 0;
+  padding: 3em 0 2em;
 }
 
 /* Main */
@@ -349,7 +349,6 @@ main.main {
 footer.footer {
   padding: 3em 0;
   border-top: 1px #e1e4e8 solid;
-  margin-top: 5em;
 }
 
 footer.footer p {
