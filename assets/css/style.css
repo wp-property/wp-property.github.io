@@ -347,8 +347,9 @@ main.main {
 
 /* Footer */
 footer.footer {
-  padding: 3em 0;
+  background-color: #f6f8fa;
   border-top: 1px #e1e4e8 solid;
+  padding: 3em 0;
 }
 
 footer.footer p {
