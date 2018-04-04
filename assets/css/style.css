@@ -58,8 +58,34 @@ header.header nav a {
 main.main {
   background-color: #fafbfc;
   border-top: 1px #e1e4e8 solid;
+  padding: 3em 0 0;
 }
+
 /* Main */
+
+/* Front page */
+.frontpage-top {
+  background-color: #FFF;
+  margin-bottom: 4em;
+}
+
+.frontpage-top .left-side img {
+  max-width: 100%;
+}
+
+.frontpage-top .right-side .title {
+  opacity: 0.6;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.frontpage-top .right-side .description {
+  font-size: 38px;
+  font-weight: 300;
+  display: block;
+}
+
+/* Front page */
 
 /* Sidebar */
 .sidebar {
@@ -213,26 +239,6 @@ main.main {
   border-right: 25px solid #e1e4e8;
   padding: 1em 2em;
   border-radius: 10px;
-}
-
-.frontpage-top {
-  background-color: #FFF;
-  margin-bottom: 3em;
-}
-
-.frontpage-top .right-side {
-  text-align: right;
-}
-
-.frontpage-top .right-side h2 {
-  line-height: 1.3;
-}
-
-.frontpage-top .right-side h2 span {
-  font-size: 2em;
-  font-weight: 100;
-  display: block;
-  margin: -20px 0 15px 0;
 }
 
 /* Product card */
