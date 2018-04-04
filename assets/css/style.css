@@ -73,16 +73,20 @@ main.main {
   max-width: 100%;
 }
 
+.frontpage-top .right-side {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.25;
+}
 .frontpage-top .right-side .title {
-  opacity: 0.6;
-  font-size: 26px;
+  font-size: 38px;
   font-weight: 300;
+  margin-bottom: 10px;
 }
 
 .frontpage-top .right-side .description {
-  font-size: 38px;
+  font-size: 26px;
   font-weight: 300;
-  display: block;
+  opacity: 0.6;
 }
 
 /* Front page */
@@ -182,6 +186,13 @@ main.main {
   margin: 0 0 0.5em;
 }
 
+.content-body h1.title,
+.content-body h2.title,
+.content-body h3.title,
+.content-body h4.title {
+  font-family: 'Roboto', sans-serif;
+}
+
 .content-body h1 {
   font-size: 2.2em;
   border-bottom: 1px solid #eaecef;
@@ -248,6 +259,7 @@ main.main {
 }
 
 .products-section .products-section-title {
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 0.2em;
   font-size: 3em;
   font-weight: 100;
