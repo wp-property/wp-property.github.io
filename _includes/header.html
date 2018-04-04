@@ -2,10 +2,12 @@
   <div class="container">
     <div class="row">
       <div class="col-4">
+        {% if page.is_homepage !== true %}
         <a href="/" class="logotype">
           <img src="{{site.logo_image}}" alt="{{site.title}}"/>
           <span>{{site.title}}</span>
         </a>
+        {% endif %}
       </div>
       <div class="col-8">
         <nav class="text-bold text-right">
