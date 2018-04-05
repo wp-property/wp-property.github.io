@@ -353,14 +353,16 @@ footer.footer {
 }
 
 footer.footer p {
+  color: #586069;
   margin: 0 0 10px !important;
 }
 
 footer.footer p a {
-  color: #24292e;
+  color: #586069;
 }
 
 footer.footer p i {
+  color: #24292e;
   font-size: 0.8em;
 }
 
