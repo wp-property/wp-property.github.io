@@ -22,109 +22,109 @@ page_class_name: front-page
   </div>
 </section>
 
-<main class="main">
+<section class="themes-section">
   <div class="container">
     <div class="row">
 
-      <div class="col-12">
-        <div class="content-body frontpage-content">
+      <div class="col-10 offset-1 products-section">
 
-          <div class="row">
-            <div class="col-10 offset-1 products-section">
+        {% for themes_list in site.data.themes %}
 
-              {% for themes_list in site.data.themes %}
-
-              <div class="row">
-                <div class="col-12">
-                  <h2 class="products-section-title">{{ themes_list[0] }}</h2>
-                  <h3 class="products-section-description">We create some themes which fully compatible with our plugins
-                    and addons</h3>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                {% for theme_item in themes_list[1] limit:3 %}
-                {% if theme_item.url %}
-                {% assign link = theme_item %}
-                {% else %}
-                {% for doc in site.pages %}
-                {% if doc.path == theme_item %}
-                {% assign link = doc %}
-                {% break %}
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-                <div class="col-4 product-item">
-                  <div class="card h-100 product-content">
-                    <div class="product-image">
-                      <a href="{{ link.url }}" alt="{{ link.title }}">
-                        <img src="{{ link.image }}" alt="{{ link.title }}"/>
-                      </a>
-                    </div>
-                    <h3 class="product-title">{{ link.title }}</h3>
-                    <div class="product-description">{{ link.description }}</div>
-                    <div class="product-more">
-                      <a href="{{ link.url }}">Read more</a>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-              {% endfor %}
-
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-10 offset-1 products-section">
-
-              {% for addons_list in site.data.addons %}
-
-              <div class="row">
-                <div class="col-12">
-                  <h2 class="products-section-title">{{ addons_list[0] }}</h2>
-                  <h3 class="products-section-description"></h3>
-                </div>
-              </div>
-              <div class="row justify-content-center">
-                {% for addon_item in addons_list[1] limit:6 %}
-                {% if theme_item.url %}
-                {% assign link = addon_item %}
-                {% else %}
-                {% for doc in site.pages %}
-                {% if doc.path == addon_item %}
-                {% assign link = doc %}
-                {% break %}
-                {% endif %}
-                {% endfor %}
-                {% endif %}
-                <div class="col-4 product-item">
-                  <div class="card h-100 product-content">
-                    <div class="product-image">
-                      <a href="{{ link.url }}" alt="{{ link.title }}">
-                        <img src="{{ link.image }}" alt="{{ link.title }}"/>
-                      </a>
-                    </div>
-                    <h3 class="product-title">{{ link.title }}</h3>
-                    <div class="product-description">{{ link.description }}</div>
-                    <div class="product-more">
-                      <a href="{{ link.url }}">Read more</a>
-                    </div>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-              {% endfor %}
-
-              <div class="row">
-                <div class="col more-button-col">
-                  <a class="more-addons-button" href="/addons/">See more addons</a>
-                </div>
-              </div>
-
-            </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 class="products-section-title">{{ themes_list[0] }}</h2>
+            <h3 class="products-section-description">We create some themes which fully compatible with our plugins
+              and addons</h3>
           </div>
         </div>
+        <div class="row justify-content-center">
+          {% for theme_item in themes_list[1] limit:3 %}
+          {% if theme_item.url %}
+          {% assign link = theme_item %}
+          {% else %}
+          {% for doc in site.pages %}
+          {% if doc.path == theme_item %}
+          {% assign link = doc %}
+          {% break %}
+          {% endif %}
+          {% endfor %}
+          {% endif %}
+          <div class="col-4 product-item">
+            <div class="card h-100 product-content">
+              <div class="product-image">
+                <a href="{{ link.url }}" alt="{{ link.title }}">
+                  <img src="{{ link.image }}" alt="{{ link.title }}"/>
+                </a>
+              </div>
+              <h3 class="product-title">{{ link.title }}</h3>
+              <div class="product-description">{{ link.description }}</div>
+              <div class="product-more">
+                <a href="{{ link.url }}">Read more</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+
       </div>
+
     </div>
   </div>
-</main>
+</section>
+
+<section class="addons-section">
+  <div class="container">
+      <div class="row">
+
+        <div class="col-10 offset-1 products-section">
+
+          {% for addons_list in site.data.addons %}
+
+          <div class="row">
+            <div class="col-12">
+              <h2 class="products-section-title">{{ addons_list[0] }}</h2>
+              <h3 class="products-section-description"></h3>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            {% for addon_item in addons_list[1] limit:6 %}
+            {% if theme_item.url %}
+            {% assign link = addon_item %}
+            {% else %}
+            {% for doc in site.pages %}
+            {% if doc.path == addon_item %}
+            {% assign link = doc %}
+            {% break %}
+            {% endif %}
+            {% endfor %}
+            {% endif %}
+            <div class="col-4 product-item">
+              <div class="card h-100 product-content">
+                <div class="product-image">
+                  <a href="{{ link.url }}" alt="{{ link.title }}">
+                    <img src="{{ link.image }}" alt="{{ link.title }}"/>
+                  </a>
+                </div>
+                <h3 class="product-title">{{ link.title }}</h3>
+                <div class="product-description">{{ link.description }}</div>
+                <div class="product-more">
+                  <a href="{{ link.url }}">Read more</a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+          {% endfor %}
+
+          <div class="row">
+            <div class="col more-button-col">
+              <a class="more-addons-button" href="/addons/">See more addons</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+</section>

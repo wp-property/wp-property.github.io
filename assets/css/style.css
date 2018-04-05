@@ -77,6 +77,7 @@ main.main {
   font-family: 'Roboto', sans-serif;
   line-height: 1.25;
 }
+
 .frontpage-top .right-side .title {
   font-size: 38px;
   font-weight: 300;
@@ -87,6 +88,18 @@ main.main {
   font-size: 26px;
   font-weight: 300;
   opacity: 0.6;
+}
+
+.themes-section {
+  background-color: #fafbfc;
+  border-top: 1px #e1e4e8 solid;
+  padding: 3em 0 2em;
+}
+
+.addons-section {
+  background-color: #FFF;
+  border-top: 1px #e1e4e8 solid;
+  padding: 3em 0 2em;
 }
 
 /* Front page */
