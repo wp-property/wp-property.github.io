@@ -50,7 +50,6 @@ importer:
     - addons/importer/running-the-import-for-wp-property-importer.md
     - addons/importer/basic-rets-import-step-by-step-for-wp-property-importer.md
     - addons/importer/basic-xml-import-step-by-step-for-wp-property-importer.md
-    - addons/importer/basic-xml-import-step-by-step-for-wp-property-importer.md
     - addons/importer/importing-csv-with-wp-property-importer.md
     - addons/importer/advanced-schedule-options-for-wp-property-importer.md
     - addons/importer/available-xpath-functions-for-wp-property-importer.md
