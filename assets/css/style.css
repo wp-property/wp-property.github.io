@@ -364,6 +364,7 @@ footer.footer {
   background-color: #f6f8fa;
   border-top: 1px #e1e4e8 solid;
   padding: 3em 0;
+  font-size: 14px;
 }
 
 footer.footer p {
@@ -380,7 +381,7 @@ footer.footer p i {
   font-size: 0.8em;
 }
 footer.footer p i.fa-wordpress {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Footer */
