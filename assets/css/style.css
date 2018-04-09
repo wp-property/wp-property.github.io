@@ -379,5 +379,8 @@ footer.footer p i {
   color: #24292e;
   font-size: 0.8em;
 }
+footer.footer p i.fa-wordpress {
+  font-size: 20px;
+}
 
 /* Footer */
