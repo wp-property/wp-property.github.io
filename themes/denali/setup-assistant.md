@@ -42,4 +42,4 @@ After you have uploaded and activated Denali, you will get the **First Setup Wiz
 
 After you are happy with your selections, click on "**Setup my Site**" on the bottom of the page and you are good to start.
 
-Right after completing the First Setup Wizard, you will be redirected to the **Settings UI**. The Settings UI is organized in tabs (General Settings, Header, Footer, Property Overview, Single Content Pages, Inquiry). The default tab that opens automatically is the first one, [**General Settings**](https://github.com/wp-property/wp-denali/wiki/General-tab).
+Right after completing the First Setup Wizard, you will be redirected to the **Settings UI**. The Settings UI is organized in tabs (General Settings, Header, Footer, Property Overview, Single Content Pages, Inquiry). The default tab that opens automatically is the first one, [**General Settings**](https://wp-property.github.io/themes/denali/denali-theme-settings-general-tab.html).

@@ -43,7 +43,7 @@ Once you go to the Widgets settings page (From the Dashboard, Appearance > Widge
 
 ### Property Type Widget Areas
 
-For each property type you have enabled, three widget areas will appear. WP-Property creates three default property types: Building, Floorplan and Single Family Home. You can add new and remove property types that you don't wish to use in your Dashboard under Properties > Settings > Developer. For more information see the WP-Property [documentation](https://github.com/wp-property/wp-property/wiki).
+For each property type you have enabled, three widget areas will appear. WP-Property creates three default property types: Building, Floorplan and Single Family Home. You can add new and remove property types that you don't wish to use in your Dashboard under Properties > Settings > Developer. For more information see the WP-Property [documentation](https://wp-property.github.io/docs/).
 
 *   **Some Property Type: Attention Grabber**. Widgets added here will appear in the particular property type's single pages (the ones that only show this property), as a tabbed Attention Grabber Element. Each widget will create a tab, with its title as the widget's title. 
 *   **Some Property Type: Right Sidebar**. Widgets added here will appear in the particular property type's single pages.

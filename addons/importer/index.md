@@ -24,8 +24,8 @@ In addition to simply importing, the XMLI can update and merge data, download im
 * WP-Property: Semi-automated importing of data from other WP-Property powered websites
 
 ***
-Our XML and RETS tutorials show everything you need to create basic imports. For your convenience, we also provide time-saving [Import Installation Services](https://github.com/wp-property/wp-property-importer/wiki/XML-and-RETS-Setup-Services-for-WP-Property-Importer)
+Our XML and RETS tutorials show everything you need to create basic imports. For your convenience, we also provide time-saving [Import Installation Services](https://wp-property.github.io/addons/importer/xml-and-rets-setup-services-for-wp-property-importer.html)
 ***
 
 
-The XML Importer receives data using either the XML or RETS import methods. WP-Property, JSON and CSV feeds will be imported using the [XML import method.](https://github.com/wp-property/wp-property-importer/wiki/Basic-XML-Import) IDX and MLS feeds will be imported using the [RETS import method.](https://github.com/wp-property/wp-property-importer/wiki/Basic-RETS-Import) The XML and RETS tutorials show how to create basic XML and RETS imports. More advanced importations will require knowledge of XPath rule and/or DMQL query construction.
+The XML Importer receives data using either the XML or RETS import methods. WP-Property, JSON and CSV feeds will be imported using the [XML import method.](https://wp-property.github.io/addons/importer/basic-xml-import-step-by-step-for-wp-property-importer.html) IDX and MLS feeds will be imported using the [RETS import method.](https://wp-property.github.io/addons/importer/basic-rets-import-step-by-step-for-wp-property-importer.html) The XML and RETS tutorials show how to create basic XML and RETS imports. More advanced importations will require knowledge of XPath rule and/or DMQL query construction.

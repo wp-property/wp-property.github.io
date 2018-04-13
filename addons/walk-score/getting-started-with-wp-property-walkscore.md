@@ -12,7 +12,7 @@ module_slug: walk-score
 
 Setup process will take less time than you think! Jut go through the following steps:
 
-*   [Install and activate](https://github.com/wp-property/wp-property-walkscore/wiki/WP-Property-Walkscore-Installation) your Add-on.
+*   [Install and activate](https://wp-property.github.io/addons/walk-score/installation.html) your Add-on.
 *   [Sign up](https://www.walkscore.com/professional/sign-up.php) for getting your Walk Score ID and then set it on your [Walk Score Settings page](//storage.googleapis.com/media.usabilitydynamics.com/2015/08/eba82ba9-ws_screen_5.png).
 *   [Sign up](https://www.walkscore.com/professional/api-sign-up.php) for getting your Walk Score API key and then also set it on your [Walk Score Settings page](//storage.googleapis.com/media.usabilitydynamics.com/2015/08/0dc809b9-ws_screen_6.png).
 *   Generate Walk Scores for all your properties [here](https://storage.googleapis.com/media.usabilitydynamics.com/2015/08/87de8edf-ws_screen_7.png).

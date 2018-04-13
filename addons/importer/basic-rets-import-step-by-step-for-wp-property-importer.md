@@ -10,7 +10,7 @@ module_slug: importer
 
 Use this **RETS import method** to import IDX, MLS, or other RETS feeds. More advanced importations will require knowledge of XPath rule and/or DMQL query construction.
 
-For your convenience, we do provide time-saving [import installation services](https://github.com/wp-property/wp-property-importer/wiki/XML-&-RETS-Setup-Services). 
+For your convenience, we do provide time-saving [import installation services](https://wp-property.github.io/addons/importer/xml-and-rets-setup-services-for-wp-property-importer.html). 
 
 ### Recommended values for server configuration options
 

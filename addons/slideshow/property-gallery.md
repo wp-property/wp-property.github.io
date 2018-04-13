@@ -16,7 +16,7 @@ Carousel gallery can be set by marking "Display as carousel gallery." in Propert
 
 `[property_gallery carousel=true]`
 
-More about [property gallery image size settings](https://github.com/wp-property/wp-property-slideshow/wiki/Property-gallery-size-options-in-WP-Property-Slideshow)
+More about [property gallery image size settings](https://wp-property.github.io/addons/slideshow/property-gallery.html)
 
 ![](https://storage.googleapis.com/media.usabilitydynamics.com/2014/10/a5fcbdda-gallery.png)
 

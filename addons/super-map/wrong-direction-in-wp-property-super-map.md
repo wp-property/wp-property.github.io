@@ -18,5 +18,5 @@ County
 Country
 Postal code
 
-You can use concat: function if you are using our [Importer add-on](https://github.com/wp-property/wp-property-importer/wiki).
+You can use concat: function if you are using our [Importer add-on](https://wp-property.github.io/addons/importer/).
 ![](https://i.embed.ly/1/image?url=http%3A%2F%2Fcontent.screencast.com%2Fusers%2FMariaKravchenko%2Ffolders%2FJing%2Fmedia%2Fcc1ff366-e2bc-4b0b-ab30-60c1e42ed2fd%2F2015-06-15_1416.png&key=afea23f29e5a4f63bd166897e3dc72df)

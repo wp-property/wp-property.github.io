@@ -22,5 +22,5 @@ Assigning Properties to Agents:
 
 5. Make sure that the attribute that you have selected matches the one in the "Match" section:![](https://storage.googleapis.com/media.usabilitydynamics.com/2016/10/2016-10-27_1728.png)
 
-6. If you need to assign a property from a third party agency to one of your agents, use attribute matches option. More information [here.](https://github.com/wp-property/wp-property-importer/wiki/Attribute-Matches-in-schedule-settings-for-WP-Property-Importer) 
+6. If you need to assign a property from a third party agency to one of your agents, use attribute matches option. More information [here.](https://wp-property.github.io/addons/importer/attribute-matches-in-schedule-settings-for-wp-property-importer.html) 
 

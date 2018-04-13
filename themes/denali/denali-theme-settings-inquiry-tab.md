@@ -12,7 +12,7 @@ The Inquiry Element is a unique feature of the Denali that does not appear in WP
 
 **Don't treat property comments as inquiries**: If you check this, the Inquiry system will be disabled and normal WordPress comments will appear underneath your properties. Not suggested.
 
-**WP-CRM Inquiry Forms**: If you have [WP-CRM](https://github.com/wp-crm/wp-crm/wiki) installed and enabled on your website, you will be able to create forms with custom fields for the visitors' Inquiries. For each property type you can choose a different form. Of course, you can imagine how powerful a feature this is for your business, since you can customize the information your leads will send you and filter people by them. So you'd better download and use WP-CRM, it's an amazing lead-generation plugin. Oh, and it's a CRM too.
+**WP-CRM Inquiry Forms**: If you have [WP-CRM](https://wp-crm.github.io/) installed and enabled on your website, you will be able to create forms with custom fields for the visitors' Inquiries. For each property type you can choose a different form. Of course, you can imagine how powerful a feature this is for your business, since you can customize the information your leads will send you and filter people by them. So you'd better download and use WP-CRM, it's an amazing lead-generation plugin. Oh, and it's a CRM too.
 
 If not, you can always use the next settings section to keep the same form for all property types.
 

@@ -12,7 +12,7 @@ module_slug: slideshow
 * image_size=medium 
 * enforce_minimum_image_width=true
 
-More information about available and default [property_gallery] parameters you can find in [Cheat Sheet for `[property_gallery]` Shortcode](https://github.com/wp-property/wp-property-slideshow/wiki/Overview) 
+More information about available and default [property_gallery] parameters you can find in [Cheat Sheet for `[property_gallery]` Shortcode](https://wp-property.github.io/addons/slideshow/) 
 
 ### image_size=medium
 

@@ -44,7 +44,7 @@ Don't display the address below the phone number on top of page. Self explanator
 
 Here we have three fields that will change some preferences of the Contact Us Header Dropdown.
 
-**Form** gives you the ability to choose which form you will use in the Dropdown. A default form is automatically created for you but you will need [WP-CRM](https://github.com/wp-crm/wp-crm/wiki) installed and active to be able to create different forms with extra / different fields. This tutorial will not cover form creation but you can jump to the [WP-CRM](https://github.com/wp-crm/wp-crm/wiki) tutorials to find out more about how to create custom forms.
+**Form** gives you the ability to choose which form you will use in the Dropdown. A default form is automatically created for you but you will need [WP-CRM](https://wp-crm.github.io/) installed and active to be able to create different forms with extra / different fields. This tutorial will not cover form creation but you can jump to the [WP-CRM](https://wp-crm.github.io/) tutorials to find out more about how to create custom forms.
 
 **Send Notifications To** sets the email address that submitted messages from the Contact Us form will be sent to.
 

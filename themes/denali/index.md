@@ -33,7 +33,7 @@ The Denali theme has been around for a while. It has responsive style layouts so
 
 ### Get Setup Quickly with the Setup Assistant
 
-After you have uploaded and activated Denali, the [First Setup Wizard](https://github.com/wp-property/wp-denali/wiki/Denali-theme-Setup-Assistant) page will appear. Jump to the next section of this tutorial.
+After you have uploaded and activated Denali, the [First Setup Wizard](https://wp-property.github.io/themes/denali/setup-assistant.html) page will appear. Jump to the next section of this tutorial.
 The Setup Assistant is a point-and-click interface to help you with a quick setup. The assistant will help you select a color scheme, general layout of a property page, location of search widgets, and more. Additionally, the assistant can create some sample properties for you, setup the widgets, and even create a sample real estate agent.
 
 ### Element Overview
@@ -50,7 +50,7 @@ Each widget you add on an Attention Grabber will appear as a different tab in it
 
 ### The Slideshow
 
-The Denali's [Slideshow](https://github.com/wp-property/wp-property-slideshow/wiki) is a special full-width slideshow that can support images plus a widget. Usually, that widget is a Property Search widget. You can later choose which widget you want to add to the Slideshow, if the widget will appear or not, or if you want to completely remove the Slideshow element.
+The Denali's [Slideshow](https://wp-property.github.io/addons/slideshow/) is a special full-width slideshow that can support images plus a widget. Usually, that widget is a Property Search widget. You can later choose which widget you want to add to the Slideshow, if the widget will appear or not, or if you want to completely remove the Slideshow element.
 
 ### Header Dropdowns
 

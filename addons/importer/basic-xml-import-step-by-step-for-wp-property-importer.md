@@ -8,7 +8,7 @@ module: "WP-Property: Importer"
 module_slug: importer
 ---
 
-Use this **XML import method** to import XML, WP-Property, JSON, CSV feeds. More advanced importations will require knowledge of XPath rule and/or DMQL query construction. For your convenience, we do provide time-saving [import installation services](https://github.com/wp-property/wp-property-importer/wiki/XML-&-RETS-Setup-Services).
+Use this **XML import method** to import XML, WP-Property, JSON, CSV feeds. More advanced importations will require knowledge of XPath rule and/or DMQL query construction. For your convenience, we do provide time-saving [import installation services](https://wp-property.github.io/addons/importer/xml-and-rets-setup-services-for-wp-property-importer.html).
 * * *
 
 ## **Step 1: Setting the Source**

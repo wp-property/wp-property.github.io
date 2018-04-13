@@ -12,7 +12,7 @@ WP-Property is the most popular plugin for creating and managing highly customiz
 Although WP-Property can handle so much more than real estate. Showcase any kind of entity you want, from livestock, golf carts, to properties and products, experiencing unparalleled ease of use and flexibility on the way.
 
 ***
-For quick reference, the [learn more about WordPress shortcodes here](https://github.com/wp-property/wp-property/wiki/WP-Property-Shortcode-Cheatsheet) gives you a compiled list of all the shortcodes available in the core version of WP-Property.
+For quick reference, the [learn more about WordPress shortcodes here](https://wp-property.github.io/docs/shortcode_cheatsheet/) gives you a compiled list of all the shortcodes available in the core version of WP-Property.
 
 ***
 

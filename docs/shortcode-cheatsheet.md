@@ -11,7 +11,7 @@ Developers can [learn more about WordPress shortcodes here](http://codex.wordpre
 
 ## About Attributes
 
-Attributes describe specific characteristics of your properties, such as price, address, bedroom count and etc. Attributes can be accessed and manipulated with shortcode. On the [WP-Property Developer tab](https://github.com/wp-property/wp-property/wiki/Settings%3A-The-Developer-Tab), you are able to edit default property attributes or create any custom attribute you would like.
+Attributes describe specific characteristics of your properties, such as price, address, bedroom count and etc. Attributes can be accessed and manipulated with shortcode. On the [WP-Property Developer tab](https://wp-property.github.io/docs/developer-tab/), you are able to edit default property attributes or create any custom attribute you would like.
 
 * * *
 
