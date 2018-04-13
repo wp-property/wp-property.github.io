@@ -22,109 +22,142 @@ page_class_name: front-page
   </div>
 </section>
 
-<section class="themes-section">
+<section class="features-section products-section">
   <div class="container">
     <div class="row">
-
       <div class="col-10 offset-1 products-section">
-
-        {% for themes_list in site.data.themes %}
-
         <div class="row">
           <div class="col-12">
-            <h2 class="products-section-title">{{ themes_list[0] }}</h2>
-            <h3 class="products-section-description">We create some themes which fully compatible with our plugins
-              and addons</h3>
+            <h2 class="products-section-title">Features</h2>
+            <h3 class="products-section-description"></h3>
           </div>
         </div>
+
         <div class="row justify-content-center">
-          {% for theme_item in themes_list[1] limit:3 %}
-          {% if theme_item.url %}
-          {% assign link = theme_item %}
-          {% else %}
-          {% for doc in site.pages %}
-          {% if doc.path == theme_item %}
-          {% assign link = doc %}
-          {% break %}
-          {% endif %}
-          {% endfor %}
-          {% endif %}
-          <div class="col-4 product-item">
+
+          <div class="col-4 featured-item">
             <div class="card h-100 product-content">
-              <div class="product-image">
-                <a href="{{ link.url }}" alt="{{ link.title }}">
-                  <img src="{{ link.image }}" alt="{{ link.title }}"/>
-                </a>
-              </div>
-              <h3 class="product-title">{{ link.title }}</h3>
-              <div class="product-description">{{ link.description }}</div>
-              <div class="product-more">
-                <a href="{{ link.url }}">Read more</a>
+              <h3 class="product-title">Walk Score</h3>
+              <div class="product-description">
+                Adds Walk Score's and Neighborhood Map's Widgets and Shortcodes to your Site powered by WP-Property plugin. And allows to sort and search your listings by Walk Score.
               </div>
             </div>
           </div>
-          {% endfor %}
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Agents</h3>
+              <div class="product-description">
+                Allows to create new Real Estate agent accounts, associate them with properties, filter properties by agent and more.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Facebook Tabs</h3>
+              <div class="product-description">
+                The Add-on allows you to add a tab with property listings or any other content from your website, on a Facebook Page.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">FEPS</h3>
+              <div class="product-description">
+                Allows to create front-end forms that facilitate a simple way for website visitors to submit, edit and delete listings from frontend. Listings can be submitted for free or you can use Sponsored Listings option via WP-Invoice add-on.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title"></h3>
+              <div class="product-description">
+
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Importer</h3>
+              <div class="product-description">
+                The XMLI Importer enables you to automatically import property listings directly into your website. This includes MLS, RETS, XML, CSV formats. Properties are created, merged, removed, or updated according to rules you specify.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">PDF Flyer</h3>
+              <div class="product-description">
+                Allows the website owner to quickly generate PDF flyers, or brochures, ready for printing or download.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Power Tools</h3>
+              <div class="product-description">
+                Extra functionality which includes capability management, white labeling the control panel, and changes menu titles.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Responsive Slideshow</h3>
+              <div class="product-description">
+                Allows you to insert a responsive slideshow into any property page with lightbox option
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Slideshow</h3>
+              <div class="product-description">
+                Allows you to insert a slideshow into any property page, home page, or virtually anywhere in your blog.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Super Map</h3>
+              <div class="product-description">
+                Lets you put a large interactive map virtually anywhere in your WordPress setup. The map lets your visitors quickly view the location of all your properties, and filter them down by attributes.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Terms</h3>
+              <div class="product-description">
+                Create any number of additional taxonomies and categorize your listings into search-friendly terms.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Denali</h3>
+              <div class="product-description">
+                Denali includes instant color scheme customization, expandable custom header with property search, integrated social media icons, automated child theme installation, and endless layout options!
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Madison</h3>
+              <div class="product-description">
+                With Madison theme you can upload a custom logo, change this theme to fit your brands colors, switch the layout, add your contact information, social networks and more.
+              </div>
+            </div>
+          </div>
+          <div class="col-4 featured-item">
+            <div class="card h-100 product-content">
+              <h3 class="product-title">Avalon</h3>
+              <div class="product-description">
+                Avalon has responsive style layouts so that it can be displayed nicely in any device, desktop or mobile. Customizable sidebars and different widgets to suit every taste. All colors from the site are also customizable to fit your brand’s colors.
+              </div>
+            </div>
+          </div>
+
         </div>
-        {% endfor %}
-
       </div>
-
     </div>
   </div>
-</section>
-
-<section class="addons-section">
-  <div class="container">
-      <div class="row">
-
-        <div class="col-10 offset-1 products-section">
-
-          {% for addons_list in site.data.addons %}
-
-          <div class="row">
-            <div class="col-12">
-              <h2 class="products-section-title">{{ addons_list[0] }}</h2>
-              <h3 class="products-section-description"></h3>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            {% for addon_item in addons_list[1] limit:6 %}
-            {% if theme_item.url %}
-            {% assign link = addon_item %}
-            {% else %}
-            {% for doc in site.pages %}
-            {% if doc.path == addon_item %}
-            {% assign link = doc %}
-            {% break %}
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            <div class="col-4 product-item">
-              <div class="card h-100 product-content">
-                <div class="product-image">
-                  <a href="{{ link.url }}" alt="{{ link.title }}">
-                    <img src="{{ link.image }}" alt="{{ link.title }}"/>
-                  </a>
-                </div>
-                <h3 class="product-title">{{ link.title }}</h3>
-                <div class="product-description">{{ link.description }}</div>
-                <div class="product-more">
-                  <a href="{{ link.url }}">Read more</a>
-                </div>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-          {% endfor %}
-
-          <div class="row">
-            <div class="col more-button-col">
-              <a class="more-addons-button" href="/addons/">See more addons</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
 </section>
