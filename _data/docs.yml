@@ -26,6 +26,7 @@ Common Issues:
   - docs/why-is-the-google-map-not-displayed-in-wp-property.md
   - docs/parse-error-syntax-error-unexpected-t_string.md
   - docs/issues-with-polylang-plug-in.md
+  - docs/wpml-compatibility-and-polylang-plugin.md
 For Developers:
   - docs/customizing-templates.md
   - docs/how-to-customize-overview-page-in-wp-property.md
