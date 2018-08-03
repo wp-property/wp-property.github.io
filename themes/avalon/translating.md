@@ -8,7 +8,7 @@ module: "Avalon"
 module_slug: avalon
 ---
 
-####Here are the instructions for translating a theme:
+### Here are the instructions for translating a theme:
 
 1. Download [Poedit](https://poedit.net/) to your PC. 
 2. Translate the file which is located in "theme name"/static/language folder. 
