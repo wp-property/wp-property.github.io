@@ -34,7 +34,7 @@ To display agent information, we use the **[agent_card]** shortcode. Unless disp
 However, if you are displaying the shortcode on a property page, within property content, or a even a text widget, the feature will automatically figure out if the given property has any agents, and get their IDs automatically.
 
 
-### Show Agent information on [PDF Flyer](https://www.usabilitydynamics.com/product/wp-property-pdf-flyer)
+### Show Agent information on [PDF Flyer](https://wp-property.github.io/addons/pdf-flyer/)
 
 Fill Flyer Writeup on Agent profile in order to show that info on PDF Flyer
 
@@ -46,7 +46,7 @@ The shortcode also allows you to set which fields to display. The attributes are
 
 `[agent_card user_id=5 fields=agent_image,display_name,full_bio,phone_number]`
 
-Since the order of the agent attributes cannot be set in the Agent Widget, an easy work-around is to use a Text Widget to render the agent_card shortcode. Be advised, by default WordPress does not execute shortcodes in Text Widgets, but a lot of themes add this functionality ( e.g. [Denali](//www.usabilitydynamics.com/product/denali) Theme ). The functionality can also be added via a plugin, such as the [Advanced Text Widget](https://wordpress.org/plugins/advanced-text-widget/).
+Since the order of the agent attributes cannot be set in the Agent Widget, an easy work-around is to use a Text Widget to render the agent_card shortcode. Be advised, by default WordPress does not execute shortcodes in Text Widgets, but a lot of themes add this functionality ( e.g. [Denali](https://wp-property.github.io/themes/denali/) Theme ). The functionality can also be added via a plugin, such as the [Advanced Text Widget](https://wordpress.org/plugins/advanced-text-widget/).
 
 `[property_overview wpp_agents=5]`
 
@@ -140,4 +140,4 @@ As you can see, the combination of these two features gives you quite a bit of f
 
 ### Advanced Agent Capabilities
 
-When used in conjunction with the [WP-Property: Power Tools](https://www.usabilitydynamics.com/product/wp-property-power-tools) Add-on, you can set up some unique configurations. In this scenario the requirement is to only allow agents to see and edit their own properties.
+When used in conjunction with the [WP-Property: Power Tools](https://wp-property.github.io/addons/power-tools/) Add-on, you can set up some unique configurations. In this scenario the requirement is to only allow agents to see and edit their own properties.

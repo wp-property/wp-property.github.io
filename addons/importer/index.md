@@ -13,7 +13,7 @@ module_slug: importer
 
 This powerful importation tool downloads and attaches images and can even associate properties with real estate agents, on the fly. Once an import schedule has been created, you can literally import hundreds, thousands, even tens of thousands of properties with a single click.
 
-In addition to simply importing, the XMLI can update and merge data, download images and attach them to listings, associate listings with [real estate agents](https://www.usabilitydynamics.com/product/wp-property-agents), geo-locate addresses, and much more.
+In addition to simply importing, the XMLI can update and merge data, download images and attach them to listings, associate listings with [real estate agents](https://wp-property.github.io/addons/agents/), geo-locate addresses, and much more.
 
 **Supported Data Formats**
 

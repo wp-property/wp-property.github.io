@@ -20,7 +20,7 @@ You can set up here
 *   You can set all properties to same property type.
 *   Memory Usage and Peak Memory Usage information can be found here too.
 *   Export All Properties to CSV file
-*   You can Look up XML import([WP-Property: Importer add-on](https://www.usabilitydynamics.com/product/wp-property-importer)) history, that shows last 500 imported items in descending order.
+*   You can Look up XML import([WP-Property: Importer add-on](https://wp-property.github.io/addons/importer/)) history, that shows last 500 imported items in descending order.
 
 ![](https://storage.googleapis.com/media.usabilitydynamics.com/2016/07/property-help-tab2.jpg)
 
@@ -38,4 +38,4 @@ You can set up here
 
 *   Show Log. The log is always active, but the UI is hidden. If enabled, it will be visible in the admin sidebar.
 *   Delete Unattached Files
-*   Show XML Import History. Show last 500 imported items in descending order. ([WP-Property: Importer add-on](https://www.usabilitydynamics.com/product/wp-property-importer))
+*   Show XML Import History. Show last 500 imported items in descending order. ([WP-Property: Importer add-on](https://wp-property.github.io/addons/importer/))

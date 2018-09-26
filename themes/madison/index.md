@@ -18,11 +18,11 @@ module_slug: madison
 
 Completely Customizable and fully Compatible with WP-Property plugin! However,please note that this theme comes without any add-ons, if you would like the same visuals like in the theme, please contact us and we will pick the right add-ons for you!
 
-We designed our Madison WordPress theme especially for Real Estate Brokers and Property Managers who use our [WP-Property](https://www.usabilitydynamics.com/product/wp-property) plugin.  In fact, Madison requires WP-Property to function properly.
+We designed our Madison WordPress theme especially for Real Estate Brokers and Property Managers who use our [WP-Property](https://wp-property.github.io/docs/) plugin.  In fact, Madison requires WP-Property to function properly.
 
 ### Main Features:
 
-*   Compatible with [WP-Property](https://www.usabilitydynamics.com/product/wp-property) and all it's [add-ons](https://www.usabilitydynamics.com/product/wp-property#addons)
+*   Compatible with [WP-Property](https://wp-property.github.io/docs/) and all it's [add-ons](https://wp-property.github.io/addons/)
 *   Compare properties & Favorite properties widgets
 *   Let's you upload a custom logo
 *   Adjust the theme to fit your brand's colors
@@ -91,7 +91,7 @@ Both options you can find in Appearance/Customizer tab.
 
 Full width Header Search, easily accessible under the top Menu on all pages.  Allows you to select up to 4 fields from the WP-Property database as property search parameters.  For example you can let clients base their search on Price, Number of Bedrooms, Number of Bathrooms, and Size of Living Area.
 
-Full width [Supermap](https://www.usabilitydynamics.com/product/wp-property-supermap) which is available on Home Madison page also easily customizable in Customizer tab.  By itself [Supermap](https://www.usabilitydynamics.com/product/wp-property-supermap) show you the map with all published properties from your site.  You can set up map sidebar with list of properties, search options, indicate the number of properties or filter by particular query.
+Full width [Supermap](https://wp-property.github.io/addons/super-map/) which is available on Home Madison page also easily customizable in Customizer tab.  By itself [Supermap](https://wp-property.github.io/addons/super-map/) show you the map with all published properties from your site.  You can set up map sidebar with list of properties, search options, indicate the number of properties or filter by particular query.
 
 ### Modern, Responsive
 

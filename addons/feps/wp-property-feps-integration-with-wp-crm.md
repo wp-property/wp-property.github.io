@@ -8,7 +8,7 @@ module: "WP-Property: FEPS"
 module_slug: feps
 ---
 
-Functionality of FEPS Add-on can be increased via the [WP-CRM](https://www.usabilitydynamics.com/product/wp-crm/) plugin.
+Functionality of FEPS Add-on can be increased via the [WP-CRM](https://wp-crm.github.io/docs/) plugin.
 
 #### _WP-CRM_
 
@@ -18,7 +18,7 @@ Also, you have the ability to manage Email notifications using WP-CRM plugin. Se
 
 ### Email Notifications
 
-Using the FREE [WP-CRM plugin](https://www.usabilitydynamics.com/product/wp-crm/) you can create custom notifications for all sorts of events, to include FEPS actions.
+Using the FREE [WP-CRM plugin](https://wp-crm.github.io/docs/) you can create custom notifications for all sorts of events, to include FEPS actions.
 
 Additional Trigger Actions in CRM -> Settings -> Notifications will appear if WP-Property FEPS, and WP-CRM, are installed. They can be used to set up FEPS action user notifications.
 

@@ -10,7 +10,7 @@ module_slug: feps
 
 ### Creating Sponsored Listings Forms
 
-It enables billable Property submissions. [WP-Invoice](https://www.usabilitydynamics.com/product/wp-invoice) plugin and [Single Page Checkout](https://www.usabilitydynamics.com/product/wp-invoice-single-page-checkout) Add-on must be installed to enable this option.
+It enables billable Property submissions. [WP-Invoice](https://wp-invoice.github.io/docs/) plugin and [Single Page Checkout](https://wp-invoice.github.io/addons/spc/) Add-on must be installed to enable this option.
 
 ![](https://storage.googleapis.com/media.usabilitydynamics.com/2014/10/db28449a-wpp.feps_.screen2.png)
 
@@ -48,7 +48,7 @@ If, however, the provided e-mail does not belong to a user, the form will be sub
 
 After a property is submitted, it is accessible using an unique URL (with a hash), anyone who has this URl link will have the access to the property (even by non-registered user).
 
-Once a property is approved by a administrator or another user with approving authority (which can be configured using the [WP-Property: Power Tools](https://www.usabilitydynamics.com/product/wp-property-power-tools) Add-on), the property becomes publicly visible via the normal URL based on your permalinks, and an account created for the submitter also becomes active.
+Once a property is approved by a administrator or another user with approving authority (which can be configured using the [WP-Property: Power Tools](https://wp-property.github.io/addons/power-tools/) Add-on), the property becomes publicly visible via the normal URL based on your permalinks, and an account created for the submitter also becomes active.
 
 ### Automatic renewal of Subscription plan
 

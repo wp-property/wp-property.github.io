@@ -72,5 +72,5 @@ You can set:
 
 ### White Label
 
-*   Labels.([Power Tools add-on](https://www.usabilitydynamics.com/product/wp-property-power-tools)) rename WP-Property components, for example if you are listing "Real Estate", or "Vehicles"(Singular Property: Default is "Property" and Plural Property: Default is "Properties", will change the label in the navigation menus).
+*   Labels.([Power Tools add-on](https://wp-property.github.io/addons/power-tools/)) rename WP-Property components, for example if you are listing "Real Estate", or "Vehicles"(Singular Property: Default is "Property" and Plural Property: Default is "Properties", will change the label in the navigation menus).
 

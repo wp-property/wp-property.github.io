@@ -16,7 +16,7 @@ For quick reference, the [learn more about WordPress shortcodes here](https://wp
 
 ***
 
-#### Demo of [Avalon theme](https://www.usabilitydynamics.com/product/avalon) especially for WP-Property plugin
+#### Demo of [Avalon theme](https://wp-property.github.io/themes/avalon/) especially for WP-Property plugin
 ***
 
 ### More than a Plugin – A Real Estate Management System!
@@ -44,7 +44,7 @@ For quick reference, the [learn more about WordPress shortcodes here](https://wp
 *   Flexible Extendable Filter on properties overview page.
 *   Any amount of custom attributes (fields) and property types.
 *   Different attributes' fields inputs are available, e.g. Text Editor, Dropdown Selection, Single Checkbox, Multi-checkbox, Radio, Number, Currency, Oembed, File and Image Upload, URL, Date and Color Pickers, etc.
-*   Free [Add-ons and Themes](//www.usabilitydynamics.com/products#category-wp-property) available.
+*   Free [Add-ons](https://wp-property.github.io/addons/) and [Themes](https://wp-property.github.io/themes/) available.
 *   Customizable widgets: Featured Properties, Property Search, Property Gallery, and Child Properties.
 *   Property types follow a hierarchical format, having the ability of inheriting settings - i.e. buildings (or communities) will automatically calculate the price range of all floor-plans below them.
 *   Flexible Search.
@@ -73,9 +73,9 @@ For quick reference, the [learn more about WordPress shortcodes here](https://wp
 
 ### Add-ons and Themes
 
-WP-Property highly recommends free [WP-Property: Terms](https://www.usabilitydynamics.com/product/wp-property-terms) Add-on which allows you to manage Taxonomies for your Properties! Just imagine that you are getting not just native WordPress terms, but you can use terms as posts. Every term of WP-Property's taxonomy has own Single page, content, thumbnails and everything else what is available for native WordPress Posts. It adds absolutely new level of managing your Real Estate site!
+WP-Property highly recommends free [WP-Property: Terms](https://wp-property.github.io/addons/terms/) Add-on which allows you to manage Taxonomies for your Properties! Just imagine that you are getting not just native WordPress terms, but you can use terms as posts. Every term of WP-Property's taxonomy has own Single page, content, thumbnails and everything else what is available for native WordPress Posts. It adds absolutely new level of managing your Real Estate site!
 
-Is the current functionality still not enough to cover all your needs? Learn more about the WP-Property [Add-ons and Themes](https://www.usabilitydynamics.com/products#category-wp-property).
+Is the current functionality still not enough to cover all your needs? Learn more about the WP-Property [Add-ons](https://wp-property.github.io/addons/) and [Themes](https://wp-property.github.io/themes/).
 
 ### Use Your Imagination!
 

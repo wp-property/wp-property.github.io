@@ -80,7 +80,7 @@ Alternatively, the property gallery can also be called as a template from [prope
 `[property_overview template=property_gallery featured=true]`
 
 
-If you use ‘property_gallery’ as a template, you can pass new options to into the shortcode to configure the template. See [Property Gallery shortcode](https://www.usabilitydynamics.com/product/wp-property-slideshow/docs/property-gallery) for a full list of options.
+If you use ‘property_gallery’ as a template, you can pass new options to into the shortcode to configure the template. See [Property Gallery shortcode](https://wp-property.github.io/addons/slideshow/property-gallery.html) for a full list of options.
 
 | Shortcode | Type | Default | Description |
 | --- | --- | --- | --- |

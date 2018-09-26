@@ -29,4 +29,4 @@ P.S If you want to delete images from the media library when you delete property
 
 All images which you uploaded to the property can be shown on the single property page using Property Gallery widget, which you can find in Appearance/Widget tab. Each property type has it's own widget area, so you can put Property gallery widget to one of them.
 
-We also suggest using our add-ons [Responsive Slideshow](https://www.usabilitydynamics.com/product/wp-property-responsive-slideshow) or [Slideshow](https://www.usabilitydynamics.com/product/wp-property-slideshow), which gives the ability to show large slideshow or carousel gallery in the content of the property or in some other widget area.
+We also suggest using our add-ons [Responsive Slideshow](https://wp-property.github.io/addons/responsive-slideshow/) or [Slideshow](https://wp-property.github.io/addons/slideshow/), which gives the ability to show large slideshow or carousel gallery in the content of the property or in some other widget area.

@@ -11,7 +11,7 @@ module_slug: avalon
 
 ### Welcome to the Avalon wiki!
 
-We designed our Avalon WordPress theme especially for [WP-Property plugin](https://www.usabilitydynamics.com/product/wp-property). It has responsive style layouts so that it can be displayed nicely in any device, desktop or mobile. Customizable sidebars and different widgets to suit every taste. All colors from the site are also customizable to fit your brand's colors. Please note that you will not get any notifications for updates of this theme. Please check updates on this page. 
+We designed our Avalon WordPress theme especially for [WP-Property plugin](https://wp-property.github.io/docs/). It has responsive style layouts so that it can be displayed nicely in any device, desktop or mobile. Customizable sidebars and different widgets to suit every taste. All colors from the site are also customizable to fit your brand's colors. Please note that you will not get any notifications for updates of this theme. Please check updates on this page. 
 
 
 ### Main Features:
@@ -21,7 +21,7 @@ We designed our Avalon WordPress theme especially for [WP-Property plugin](https
 *   Let's you upload a custom logo
 *   Add your contact and company information
 *   Available for localization
-*  Compatible with [WP-Property](https://www.usabilitydynamics.com/product/wp-property) pluigin and all it's [add-ons](https://www.usabilitydynamics.com/product/wp-property#addons)
+*   Compatible with [WP-Property](https://wp-property.github.io/docs/) pluigin and all it's [add-ons](https://wp-property.github.io/addons/)
 *   Useful Sidebars and widgets available
 *   Adjust the theme to fit your brand's colors
 *   Fully Responsive

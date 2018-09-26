@@ -22,4 +22,4 @@ Several emails are sent to the property submitter throughout the life-cycle of a
 
 **Property Deleted.** If an administrator decided to delete a property for some reason an e-mail is sent to the submitter. 
 
-All the above e-mail notifications may be customizers using the [WP-CRM](https://www.usabilitydynamics.com/product/wp-crm) plugin. 
+All the above e-mail notifications may be customizers using the [WP-CRM](https://wp-crm.github.io/docs/) plugin. 

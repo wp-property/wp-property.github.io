@@ -8,9 +8,9 @@ module: "WP-Property: FEPS"
 module_slug: feps
 ---
 
-Functionality of FEPS Add-on can be increased via the [WP-Invoice](https://www.usabilitydynamics.com/product/wp-invoice) plugin.
+Functionality of FEPS Add-on can be increased via the [WP-Invoice](https://wp-invoice.github.io/docs/) plugin.
 
-To add additional functionality to FEPS Add-on, [Single Page Checkout](https://www.usabilitydynamics.com/product/wp-invoice-single-page-checkout) Add-on for WP-Invoice plugin must be installed and activated.
+To add additional functionality to FEPS Add-on, [Single Page Checkout](https://wp-invoice.github.io/addons/spc/) Add-on for WP-Invoice plugin must be installed and activated.
 
 It allows you to use FEPS Property Forms as billable service where users have to pay for publishing Properties on your site.
 
