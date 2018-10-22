@@ -14,7 +14,7 @@ Slideshow may be inserted virtually anywhere using shortcode, but is generally i
 
 ### Responsive and good looking in any theme. 
 
-[View Demo](http://denali.ci.usabilitydynamics.com/all-properties/charming-property/)
+[View Demo](https://demo.usabilitydynamics.com/avalon/properties/rent-apartment-in-pittsboro/)
 
 ![](https://storage.googleapis.com/media.usabilitydynamics.com/2016/02/c437ee17-resposiveslideshow.jpg)
 
