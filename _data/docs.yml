@@ -11,6 +11,7 @@ Settings:
   - docs/help-tab.md
 Guides:
   - docs/how-to-add-images.md
+  - docs/set-accessible-host.md
   - docs/how-to-add-auto-populated-field.md
   - docs/will-wp-property-work-with-any-theme.md
   - docs/accessing-wp-property-with-a-non-admin-user-role.md
