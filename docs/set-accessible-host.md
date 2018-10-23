@@ -4,6 +4,8 @@ sidebar_title: Set Accessible Host
 permalink: /docs/set-accessible-host
 ---
 
+The reason why you need to do that is that you do not see a list of available add-ons, themes for some plugin or the license key is not activating.
+
 The recommended way to add a domain to the **WP_ACCESSIBLE_HOSTS** is within the wp-config.php. This file can be found in the root directory of your WordPress installation.  The easiest way to do this is to use an FTP client to log into your server or access your host’s file management system.
 
 Search the file for **WP_ACCESSIBLE_HOSTS.**
