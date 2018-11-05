@@ -75,11 +75,11 @@ Arrows will add property to the Compare Properties widget. This widget should be
 
 Madison Property Overview shortcode lets you select the number of columns to display.
 
-[`[property_overview columns=2]`](http://madison.ci.usabilitydynamics.com/listings/property-grid-2-columns/)
+`[property_overview columns=2]`
 
-[`[property_overview columns=3]`](http://madison.ci.usabilitydynamics.com/listings/property-grid-3-columns/)
+`[property_overview columns=3]`
 
-[`[property_overview columns=4]`](http://madison.ci.usabilitydynamics.com/listings/property-grid-4-columns/)
+`[property_overview columns=4]`
 
 
 
