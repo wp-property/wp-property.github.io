@@ -13,6 +13,8 @@ If you do not see your supermap try to do the following things:
 - Check that you filled Google API key in Settings/Main tab.  See more details [here.](https://developers.google.com/maps/documentation/javascript/usage#usage_limits)
 ![](https://storage.googleapis.com/media.usabilitydynamics.com/2016/07/google-api-key.jpg)
 
+- Check WP_HTTP_BLOCK_EXTERNAL constant in wp-config.php not blocking request to maps.googleapis.com.
+
 - All properties should have valid addresses. You can make all addresses valid in Properties/Settings/Help – Revalidate.
 Note: Google Maps has its own limit of usage 
 [https://developers.google.com/maps/documentation/javascript/usage#usage_limits](https://developers.google.com/maps/documentation/javascript/usage#usage_limits)
