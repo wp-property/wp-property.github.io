@@ -1,6 +1,6 @@
 ---
 title: "Could not regenerate PDF Flyer for property. Looks like, something caused error on server."
-sidebar_title: "Could not regenerate PDF Flyer for property "...". Looks like, something caused error on server."
+sidebar_title: "Could not regenerate PDF Flyer for property '...'. Looks like, something caused error on server."
 slug: pdf-flyer/could-not-regenerate-pdf-flyer-for-property
 image: //storage.googleapis.com/media.usabilitydynamics.com/2014/10/cafbdb86-wpproperty-extension-pdf_flyer-icon-300x300.png
 repo_url: https://github.com/wp-property/wp-property-pdf
