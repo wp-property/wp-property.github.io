@@ -15,7 +15,7 @@ The default WP-Property single listing page template is stored in wp-property/st
 Depending on your level of customization, you may be able to simply create a custom style sheet.  If your customization cannot be handled by CSS alone, you will need to create a custom PHP template and place it in your theme root folder.
 
 E.g if you want to add slideshow to all single property pages, place this code into the property.php template
-` <?php echo do_shortcode('[property_slideshow]'); ?>`
+`<?php echo do_shortcode('[property_slideshow]'); ?>`
 
 Be sure you have slideshow add-on in that case enabled on your site.
 
@@ -25,7 +25,7 @@ Template with the name property-overview.php located in wp-property/static/views
 
 If you want to add some additional attribute to the property short description in overview, you can use following code
 
-Bedrooms:` <?php echo $property['bedrooms']; ?>`
+Bedrooms: `<?php echo $property['bedrooms']; ?>`
 
 ...where bedrooms is the slug of your attribute.
 
